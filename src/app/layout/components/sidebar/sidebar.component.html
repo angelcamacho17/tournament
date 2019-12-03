@@ -1,0 +1,40 @@
+<div id="sidebar">
+  <div class="team-logo">
+    <img class="team-logo center-block img-responsive"
+    [style.height.px]="150"
+    [style.margin.px]="2"
+    src="assets/images/teams/arepas.png">
+  </div>
+  <img src="assets/images/players/PL0002.jpg" alt="Avatar" class="profile-img">
+  <div class="team-name">
+    <h4>
+      {{ user?.team }}
+    </h4>
+  </div>
+  <div class="player-name">
+    <h4>
+      {{ user?.email }}
+    </h4>
+  </div>
+  <mat-nav-list>
+    <a mat-list-item [routerLinkActive]="'active'" [routerLink]="['/']" routerLinkActive="router-link-active" >
+      <mat-icon class="sidenav-icon">Home</mat-icon>
+    </a>
+      <a mat-list-item [routerLinkActive]="'active'" [routerLink]="['/']" routerLinkActive="router-link-active" >
+        <mat-icon class="sidenav-icon">Tournament</mat-icon>
+      </a>
+        <a mat-list-item [routerLinkActive]="'active'" [routerLink]="['/']" routerLinkActive="router-link-active" >
+          <mat-icon class="sidenav-icon">Fixture</mat-icon>
+        </a>
+          <a mat-list-item [routerLinkActive]="'active'" [routerLink]="['/']" routerLinkActive="router-link-active" >
+            <mat-icon class="sidenav-icon">Teams</mat-icon>
+          </a>
+            <a mat-list-item [routerLinkActive]="'active'" [routerLink]="['/']" routerLinkActive="router-link-active" >
+              <mat-icon class="sidenav-icon">Player</mat-icon>
+            </a>
+      <a mat-list-item [routerLinkActive]="'active'" [routerLink]="['/']" routerLinkActive="router-link-active" >
+        <mat-icon class="sidenav-icon">Information</mat-icon>
+      </a>
+  </mat-nav-list>
+
+</div>

@@ -1,0 +1,42 @@
+<div class="login-page">
+  <div class="content" novalidate>
+        <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)" class="login-form">
+          <div class="text-center">
+              <img class="center-block img-responsive"
+              [style.height.px]="150"
+              [style.margin.px]="2"
+              src="assets/images/logo.png">
+          </div>
+          <div fxFlex  fxlayout="row" fxlayout.lt-md="column">
+              <div fxFlexFill>
+                <mat-form-field class="w-100">
+                    <input matInput placeholder="Team" formControlName="team">
+                    <mat-error *ngIf="!team.valid && team.touched">
+                      {{ titleAlert }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+          </div>
+          <div fxFlex  fxlayout="row" fxlayout.lt-md="column">
+              <div fxFlexFill>
+                <mat-form-field class="w-100">
+                  <input matInput placeholder="Email" formControlName="email">
+                  <mat-error *ngIf="!formGroup.controls['email'].valid && formGroup.controls['email'].touched">
+                    {{ getErrorEmail() }}
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+            <div fxFlex  fxlayout="row" fxlayout.lt-md="column">
+              <div fxFlexFill>
+                <mat-form-field class="w-100">
+                  <input matInput type="password" placeholder="Password" formControlName="password">
+                </mat-form-field>
+              </div>
+            </div>
+          <div class="w-100">
+            <button mat-raised-button color="primary" type="submit" class="button" [disabled]="!formGroup.valid">Submit Form</button>
+          </div>
+        </form>
+    </div>
+</div>
