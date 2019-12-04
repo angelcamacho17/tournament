@@ -8,6 +8,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AuthGuard } from './shared/guard';
 import { LayoutModule } from './layout/layout.module';
 import { UserService } from './services/user.service';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,11 @@ import { UserService } from './services/user.service';
     BrowserAnimationsModule,
     LayoutModule,
     HttpClientModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
   ],
   providers: [ AuthGuard , UserService ],
   bootstrap: [AppComponent]

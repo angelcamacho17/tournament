@@ -1,0 +1,145 @@
+//  .sidenav-container {
+//    height: 100%;
+//    backface-visibility: hidden;
+//  }
+
+ /* .sidenav {
+   align-content: center;
+   width: 250px;
+   height: 100%;
+ } */
+
+ .mat-toolbar.mat-primary {
+   display: flex;
+   flex-flow: column;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+ }
+.team-logo{
+  position: relative;
+  top: 0px;
+  align-items: center;
+  text-align: center;
+}
+.team-name{
+  position: relative;
+  top: -40px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: -41px;
+  border-bottom: 1px solid grey;
+  z-index: 1;
+  padding: 14px;
+}
+.player-name{
+  position: relative;
+  top: 13px;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-img{
+   margin-right: -24px;
+   align-self: center;
+   height: 60px;
+   border-radius: 50%;
+   top: 134px;
+   right: 171px;
+   z-index: 2;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: absolute;
+}
+
+.mat-nav-list {
+  width: 100%;
+  position: relative;
+  top: 0;
+  a {
+      .mat-icon {
+          margin-right: 15px;
+      }
+      display: inline;
+  }
+}
+
+.mat-drawer-container {
+  background-color:transparent;
+  overflow-y: none;
+}
+.mat-drawer {
+  overflow-y: hidden;
+}
+
+// .mat-list-item-content {
+//    display: block;
+//    flex-direction: column;
+//    align-items: center;
+//    box-sizing: border-box;
+//    position: relative;
+//    height: 34px;
+//    font-size: 16px;
+//    text-align: center;
+//  }
+
+.bottom-text{
+  text-align: center;
+}
+
+.logo{
+  height: 100%;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.sidenav-container {
+  width: 100%;
+  height: 100%;
+
+  .sidenav {
+    width: 250px;
+    height: 100%;
+
+    .sidenav-content {
+      display: flex;
+      flex-flow: row wrap;
+      .first {
+       flex: 0 0 100%; 
+       .list{
+        text-align: center;
+        flex: auto;
+      }
+     }
+    }
+  }
+}
+
+
+.second{
+  text-align: center;
+  position: absolute;
+  width: 250px;
+  bottom: 0px;
+ }
+
+ @media screen and (max-height: 614px) {
+  .second{
+    position: relative;
+   }
+}

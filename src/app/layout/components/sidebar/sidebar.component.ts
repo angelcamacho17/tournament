@@ -16,10 +16,13 @@ constructor(
 
   ngOnInit() {
     let aux: User = {
+      id: 1,
+      imageUrl: "string",
+      password: "string",
       email : 'angel@gm.vom',
       team : 'arepa'
     };
-    this.user = this.userService.getUser() !== undefined ? this.userService.getUser() : aux;
+    this.user = this.userService.getUser() !== undefined && this.userService.getUser() !== null ? this.userService.getUser() : aux;
   }
 
   addExpandClass( element: any){
