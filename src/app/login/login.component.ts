@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
   post: any = '';
 
   constructor(private formBuilder: FormBuilder,
-              private userService: LoginService,
+              private loginService: LoginService,
               private router: Router) { }
 
   ngOnInit() {
@@ -67,9 +67,7 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit(post): void {
-    this.userService.setUser(post);
-    localStorage.setItem('isLoggedin', 'true');
-    this.router.navigate(['/dashboard']);
+    this.loginService.logIn(post);
   }
 
 }
