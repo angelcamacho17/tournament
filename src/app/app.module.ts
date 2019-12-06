@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AuthGuard } from './shared/guard';
 import { LayoutModule } from './layout/layout.module';
-import { UserService } from './services/user.service';
+import { LoginService } from './services/login.service';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 
 @NgModule({
@@ -26,7 +26,7 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     MatIconModule,
     MatListModule,
   ],
-  providers: [ AuthGuard , UserService ],
+  providers: [ AuthGuard , LoginService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

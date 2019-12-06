@@ -1,0 +1,1500 @@
+{
+    "players": [{
+            "code": "PL0002",
+            "name": "Zahneny Dziedzic",
+            "team_code": "E00002",
+            "blood_type": "",
+            "mail": "christinapruitt@yahoo.com",
+            "phone": "(3721) 413-47-27234",
+            "number": "22",
+            "photo": "PL0002.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Manish Rankins",
+                "phone": "(40) 282-19-48404"
+            }
+        },
+        {
+            "code": "PL0004",
+            "name": "Solt Hibbard",
+            "team_code": "E00004",
+            "blood_type": "A-",
+            "mail": "connor97@gmail.com",
+            "phone": "(877) 289-66-14848",
+            "number": "22",
+            "photo": "PL0004.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Earnest Hornbuckle",
+                "phone": "(9936) 276-76-17003"
+            }
+        },
+        {
+            "code": "PL0007",
+            "name": "Corcoran Lengyel",
+            "team_code": "E00007",
+            "blood_type": "RH+",
+            "mail": "danielmartin@hotmail.com",
+            "phone": "",
+            "number": "1",
+            "photo": "PL0007.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Jeevan Shoop",
+                "phone": "(175) 031-23-60764"
+            }
+        },
+        {
+            "code": "PL0010",
+            "name": "Kirk Modlin",
+            "team_code": "E00010",
+            "blood_type": "O-�",
+            "mail": "wgonzales@gmail.com",
+            "phone": "(94) 843-52-03838",
+            "number": "22",
+            "photo": "PL0010.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Linzi Beale",
+                "phone": "(5301) 290-05-28631"
+            }
+        },
+        {
+            "code": "PL0015",
+            "name": "Kerby Barragan",
+            "team_code": "E00005",
+            "blood_type": "A-",
+            "mail": "xcalderon@collins.com",
+            "phone": "(3174) 482-17-65285",
+            "number": "2",
+            "photo": "PL0015.jpg",
+            "captain": "true",
+            "emergency_contact": {
+                "name": "Paxton Poisson",
+                "phone": "(49) 390-41-30117"
+            }
+        },
+        {
+            "code": "PL0017",
+            "name": "Fionn Heinlein",
+            "team_code": "E00007",
+            "blood_type": "",
+            "mail": "gregorywilson@yahoo.com",
+            "phone": "(6650) 089-16-67843",
+            "number": "2",
+            "photo": "PL0017.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Suki Morningstar",
+                "phone": "(829) 431-34-19605"
+            }
+        },
+        {
+            "code": "PL0018",
+            "name": "Annan Garman",
+            "team_code": "E00008",
+            "blood_type": "O-�",
+            "mail": "rogersjamie@huber-osborne.com",
+            "phone": "(620) 781-45-80505",
+            "number": "3",
+            "photo": "PL0018.jpg",
+            "captain": "true",
+            "emergency_contact": {
+                "name": "Marron Motz",
+                "phone": "(1640) 703-21-63370"
+            }
+        },
+        {
+            "code": "PL0019",
+            "name": "Annan Jeffries",
+            "team_code": "E00009",
+            "blood_type": "O-�",
+            "mail": "catherinerose@yahoo.com",
+            "phone": "",
+            "number": "2",
+            "photo": "PL0019.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Evangelos Sennett",
+                "phone": "(6294) 260-78-03853"
+            }
+        },
+        {
+            "code": "PL0021",
+            "name": "Sean Seo",
+            "team_code": "E00001",
+            "blood_type": "A+",
+            "mail": "mwaters@lopez.biz",
+            "phone": "(64) 280-45-93061",
+            "number": "6",
+            "photo": "PL0021.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Aphrodite Calvillo",
+                "phone": "(17) 441-76-24962"
+            }
+        },
+        {
+            "code": "PL0024",
+            "name": "Nicolas Rexrode",
+            "team_code": "E00004",
+            "blood_type": "O-�",
+            "mail": "autumn89@cruz.org",
+            "phone": "(06) 402-79-49205",
+            "number": "20",
+            "photo": "PL0024.jpg",
+            "captain": "true",
+            "emergency_contact": {
+                "name": "Tommy Beltz",
+                "phone": "(58) 530-70-14818"
+            }
+        },
+        {
+            "code": "PL0025",
+            "name": "Surya Wake",
+            "team_code": "E00005",
+            "blood_type": "",
+            "mail": "rhonda70@yahoo.com",
+            "phone": "(093) 725-42-87140",
+            "number": "6",
+            "photo": "PL0025.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Chad Valenti",
+                "phone": "(13) 967-89-38656"
+            }
+        },
+        {
+            "code": "PL0026",
+            "name": "Atulya Fallis",
+            "team_code": "E00006",
+            "blood_type": "A+",
+            "mail": "creyes@yahoo.com",
+            "phone": "(2389) 393-18-80196",
+            "number": "20",
+            "photo": "PL0026.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Wilma Leek",
+                "phone": "(345) 115-59-69370"
+            }
+        },
+        {
+            "code": "PL0028",
+            "name": "Nicolas Jimerson",
+            "team_code": "E00008",
+            "blood_type": "A+",
+            "mail": "kellyallen@smith.com",
+            "phone": "(844) 842-92-10306",
+            "number": "20",
+            "photo": "PL0028.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Hedia Fernald",
+                "phone": "(9002) 090-88-47594"
+            }
+        },
+        {
+            "code": "PL0030",
+            "name": "Dedrick Downing",
+            "team_code": "E00010",
+            "blood_type": "O-�",
+            "mail": "anthonygentry@gmail.com",
+            "phone": "(77) 707-26-56888",
+            "number": "20",
+            "photo": "PL0030.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Brona Edward",
+                "phone": "(39) 207-76-64501"
+            }
+        },
+        {
+            "code": "PL0031",
+            "name": "Annan Coomer",
+            "team_code": "E00001",
+            "blood_type": "A-",
+            "mail": "gutierrezkelsey@franklin.org",
+            "phone": "(10) 912-49-46878",
+            "number": "7",
+            "photo": "PL0031.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Loring Kincaid",
+                "phone": "(906) 390-29-81366"
+            }
+        },
+        {
+            "code": "PL0032",
+            "name": "Hampton Mendelson",
+            "team_code": "E00002",
+            "blood_type": "B+",
+            "mail": "andre97@yahoo.com",
+            "phone": "(955) 393-36-60129",
+            "number": "19",
+            "photo": "PL0032.jpg",
+            "captain": "true",
+            "emergency_contact": {
+                "name": "Otello Calvillo",
+                "phone": "(076) 390-17-68228"
+            }
+        },
+        {
+            "code": "PL0033",
+            "name": "Nayan Seo",
+            "team_code": "E00003",
+            "blood_type": "O-�",
+            "mail": "jacquelinelewis@wheeler.com",
+            "phone": "",
+            "number": "7",
+            "photo": "PL0033.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Yamura Giffin",
+                "phone": "(874) 785-71-46283"
+            }
+        },
+        {
+            "code": "PL0034",
+            "name": "Parkin Cory",
+            "team_code": "E00004",
+            "blood_type": "B+",
+            "mail": "ronnie72@hotmail.com",
+            "phone": "(06) 528-81-22783",
+            "number": "19",
+            "photo": "PL0034.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0035",
+            "name": "Tomi Hughes",
+            "team_code": "E00005",
+            "blood_type": "O-�",
+            "mail": "vtownsend@mcintyre-hall.com",
+            "phone": "(1292) 139-27-08941",
+            "number": "7",
+            "photo": "PL0035.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0036",
+            "name": "Marcello Beller",
+            "team_code": "E00006",
+            "blood_type": "O-�",
+            "mail": "richardsanchez@yahoo.com",
+            "phone": "(62) 780-57-18096",
+            "number": "19",
+            "photo": "PL0036.jpg",
+            "captain": "true",
+            "emergency_contact": {
+                "name": "Rhun Hollister",
+                "phone": "(1478) 184-25-10748"
+            }
+        },
+        {
+            "code": "PL0039",
+            "name": "Arion Cochran",
+            "team_code": "E00009",
+            "blood_type": "O-�",
+            "mail": "burnettjoseph@figueroa.com",
+            "phone": "(3869) 584-97-59550",
+            "number": "7",
+            "photo": "PL0039.jpg",
+            "captain": "true",
+            "emergency_contact": {
+                "name": "Thormund Raygoza",
+                "phone": "(36) 935-41-68897"
+            }
+        },
+        {
+            "code": "PL0040",
+            "name": "Nabil Hegwood",
+            "team_code": "E00010",
+            "blood_type": "A+",
+            "mail": "shortlee@thompson.org",
+            "phone": "(92) 305-36-87363",
+            "number": "19",
+            "photo": "PL0040.jpg",
+            "captain": "true",
+            "emergency_contact": {
+                "name": "Tarasios Hames",
+                "phone": "(121) 512-05-49033"
+            }
+        },
+        {
+            "code": "PL0041",
+            "name": "Whittaker Pascale",
+            "team_code": "E00001",
+            "blood_type": "O-�",
+            "mail": "seth47@walker.net",
+            "phone": "(699) 800-27-24308",
+            "number": "11",
+            "photo": "PL0041.jpg",
+            "captain": "true",
+            "emergency_contact": {
+                "name": "Susila Gay",
+                "phone": "(021) 814-03-22817"
+            }
+        },
+        {
+            "code": "PL0042",
+            "name": "Yaphet Ebel",
+            "team_code": "E00002",
+            "blood_type": "B+",
+            "mail": "bscott@smith.com",
+            "phone": "",
+            "number": "33",
+            "photo": "PL0042.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Bay Gorton",
+                "phone": "(79) 890-02-15715"
+            }
+        },
+        {
+            "code": "PL0043",
+            "name": "Aubert Kull",
+            "team_code": "E00003",
+            "blood_type": "A-",
+            "mail": "youngdestiny@yahoo.com",
+            "phone": "(75) 799-70-25269",
+            "number": "11",
+            "photo": "PL0043.jpg",
+            "captain": "true",
+            "emergency_contact": {
+                "name": "Tarasios Lugo",
+                "phone": "(59) 710-52-46679"
+            }
+        },
+        {
+            "code": "PL0046",
+            "name": "Ankit Werts",
+            "team_code": "E00006",
+            "blood_type": "B+",
+            "mail": "theresa71@smith-johnson.com",
+            "phone": "(5110) 663-41-76938",
+            "number": "33",
+            "photo": "PL0046.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Wilma Sundberg",
+                "phone": "(877) 635-63-58515"
+            }
+        },
+        {
+            "code": "PL0047",
+            "name": "Mogens Raker",
+            "team_code": "E00007",
+            "blood_type": "A-",
+            "mail": "kberg@hotmail.com",
+            "phone": "(6391) 475-03-26154",
+            "number": "11",
+            "photo": "PL0047.jpg",
+            "captain": "true",
+            "emergency_contact": {
+                "name": "Kyon Brownfield",
+                "phone": "(761) 888-84-13171"
+            }
+        },
+        {
+            "code": "PL0049",
+            "name": "Zahneny Cockrum",
+            "team_code": "E00009",
+            "blood_type": "B+",
+            "mail": "julie75@salazar-jenkins.com",
+            "phone": "(53) 181-68-59474",
+            "number": "11",
+            "photo": "PL0049.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Garnet Meister",
+                "phone": "(39) 064-41-07692"
+            }
+        },
+        {
+            "code": "PL0052",
+            "name": "Edmond Stanger",
+            "team_code": "E00002",
+            "blood_type": "O-�",
+            "mail": "john96@hernandez.com",
+            "phone": "(14) 370-60-17485",
+            "number": "99",
+            "photo": "PL0052.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0053",
+            "name": "Lindsay Fiore",
+            "team_code": "E00003",
+            "blood_type": "B-",
+            "mail": "april21@gmail.com",
+            "phone": "(49) 987-48-89065",
+            "number": "9",
+            "photo": "PL0053.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Mack Crossman",
+                "phone": "(4851) 199-07-31158"
+            }
+        },
+        {
+            "code": "PL0055",
+            "name": "Varun Oman",
+            "team_code": "E00005",
+            "blood_type": "O-�",
+            "mail": "levianderson@wilson.org",
+            "phone": "(4972) 693-58-26483",
+            "number": "9",
+            "photo": "PL0055.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Rolando Choate",
+                "phone": "(51) 328-76-97467"
+            }
+        },
+        {
+            "code": "PL0056",
+            "name": "Conrad Blanco",
+            "team_code": "E00006",
+            "blood_type": "A-",
+            "mail": "nicholasboyer@johnson.net",
+            "phone": "(5256) 451-03-73612",
+            "number": "99",
+            "photo": "PL0056.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0059",
+            "name": "Becse Cadet",
+            "team_code": "E00009",
+            "blood_type": "O-�",
+            "mail": "gregory83@stout.com",
+            "phone": "(21) 316-38-07013",
+            "number": "9",
+            "photo": "PL0059.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Yumi Dewalt",
+                "phone": "(4169) 612-52-09314"
+            }
+        },
+        {
+            "code": "PL0061",
+            "name": "Chale McGruder",
+            "team_code": "E00001",
+            "blood_type": "O-�",
+            "mail": "manningjason@hotmail.com",
+            "phone": "(48) 339-02-08863",
+            "number": "10",
+            "photo": "PL0061.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Morcum Boudreau",
+                "phone": "(8258) 349-68-03519"
+            }
+        },
+        {
+            "code": "PL0062",
+            "name": "Sterne Pandya",
+            "team_code": "E00002",
+            "blood_type": "B+",
+            "mail": "nharrison@yahoo.com",
+            "phone": "",
+            "number": "14",
+            "photo": "PL0062.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Eumann Meister",
+                "phone": "(151) 538-08-79869"
+            }
+        },
+        {
+            "code": "PL0064",
+            "name": "Ishmael Banegas",
+            "team_code": "E00004",
+            "blood_type": "B-",
+            "mail": "keithhunter@frye.com",
+            "phone": "(07) 613-69-92754",
+            "number": "14",
+            "photo": "PL0064.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Raivata Jameson",
+                "phone": "(511) 248-11-72523"
+            }
+        },
+        {
+            "code": "PL0065",
+            "name": "Talos Borgen",
+            "team_code": "E00005",
+            "blood_type": "B+",
+            "mail": "",
+            "phone": "(24) 086-36-36419",
+            "number": "10",
+            "photo": "PL0065.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Denby Mcclellan",
+                "phone": "(950) 655-55-42528"
+            }
+        },
+        {
+            "code": "PL0068",
+            "name": "Lars Mulvey",
+            "team_code": "E00008",
+            "blood_type": "RH+",
+            "mail": "marywolf@jackson.com",
+            "phone": "",
+            "number": "14",
+            "photo": "PL0068.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Kyeema Morrison",
+                "phone": "(846) 894-60-54207"
+            }
+        },
+        {
+            "code": "PL0069",
+            "name": "Spencer Ivory",
+            "team_code": "E00009",
+            "blood_type": "B-",
+            "mail": "morriskrystal@hernandez-paul.com",
+            "phone": "(4613) 764-38-22638",
+            "number": "10",
+            "photo": "PL0069.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Crisiant Donatelli",
+                "phone": "(561) 871-33-77520"
+            }
+        },
+        {
+            "code": "PL0073",
+            "name": "Adelmo Watterson",
+            "team_code": "E00003",
+            "blood_type": "A-",
+            "mail": "timothylong@gmail.com",
+            "phone": "(52) 639-91-43819",
+            "number": "8",
+            "photo": "PL0073.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Dolf Kirkwood",
+                "phone": "(788) 772-14-37868"
+            }
+        },
+        {
+            "code": "PL0074",
+            "name": "Parker Beeson",
+            "team_code": "E00004",
+            "blood_type": "O-�",
+            "mail": "caseypriscilla@hotmail.com",
+            "phone": "(73) 862-32-64806",
+            "number": "12",
+            "photo": "PL0074.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Bay Heaps",
+                "phone": "(232) 902-13-58110"
+            }
+        },
+        {
+            "code": "PL0076",
+            "name": "Kermit Cohn",
+            "team_code": "E00006",
+            "blood_type": "AB-",
+            "mail": "nlopez@hotmail.com",
+            "phone": "",
+            "number": "12",
+            "photo": "PL0076.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Agatha Holle",
+                "phone": "(68) 517-24-96864"
+            }
+        },
+        {
+            "code": "PL0077",
+            "name": "Deepak McCardle",
+            "team_code": "E00007",
+            "blood_type": "O-�",
+            "mail": "allison65@jones.com",
+            "phone": "(5792) 529-76-98123",
+            "number": "8",
+            "photo": "PL0077.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Corbett Choate",
+                "phone": "(407) 218-33-97978"
+            }
+        },
+        {
+            "code": "PL0078",
+            "name": "Tiberius Beeson",
+            "team_code": "E00008",
+            "blood_type": "RH+",
+            "mail": "",
+            "phone": "(781) 510-92-46120",
+            "number": "12",
+            "photo": "PL0078.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Thane Barstow",
+                "phone": "(974) 077-66-39559"
+            }
+        },
+        {
+            "code": "PL0080",
+            "name": "Beattie Fikes",
+            "team_code": "E00010",
+            "blood_type": "RH+",
+            "mail": "awilliams@hotmail.com",
+            "phone": "",
+            "number": "12",
+            "photo": "PL0080.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Edmonda Bonneau",
+                "phone": "(752) 233-67-44815"
+            }
+        },
+        {
+            "code": "PL0083",
+            "name": "Fingal Banegas",
+            "team_code": "E00003",
+            "blood_type": "O-�",
+            "mail": "austinbrian@gmail.com",
+            "phone": "(470) 443-23-28557",
+            "number": "5",
+            "photo": "PL0084.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Maybelle Massingill",
+                "phone": "(75) 240-01-76562"
+            }
+        },
+        {
+            "code": "PL0087",
+            "name": "Ryuichi Parmley",
+            "team_code": "E00007",
+            "blood_type": "O-�",
+            "mail": "harrisandrea@castillo-clay.biz",
+            "phone": "(71) 135-99-01858",
+            "number": "5",
+            "photo": "PL0087.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0088",
+            "name": "Yong Bartley",
+            "team_code": "E00008",
+            "blood_type": "A-",
+            "mail": "herreradavid@hernandez.com",
+            "phone": "(63) 930-68-90458",
+            "number": "16",
+            "photo": "PL0088.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Lann Gerst",
+                "phone": "(58) 119-35-39384"
+            }
+        },
+        {
+            "code": "PL0090",
+            "name": "Alton Vargo",
+            "team_code": "E00010",
+            "blood_type": "B-",
+            "mail": "wilkinsonshannon@yoder-henry.biz",
+            "phone": "(675) 270-93-47454",
+            "number": "16",
+            "photo": "PL0090.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Kyon Messersmith",
+                "phone": "(90) 765-90-50226"
+            }
+        },
+        {
+            "code": "PL0095",
+            "name": "Senon Kuykendall",
+            "team_code": "E00005",
+            "blood_type": "B-",
+            "mail": "randysmith@holt.net",
+            "phone": "(9451) 610-27-24051",
+            "number": "4",
+            "photo": "PL0095.jpg",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Cilla Sundberg",
+                "phone": "(9994) 850-88-52880"
+            }
+        },
+        {
+            "code": "PL0001",
+            "name": "Hyatt Helland",
+            "team_code": "E00001",
+            "blood_type": "O-�",
+            "mail": "dfletcher@silva-ortega.com",
+            "phone": "(35) 332-30-71964",
+            "number": "1",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Ravi Sosebee",
+                "phone": "(104) 701-71-77494"
+            }
+        },
+        {
+            "code": "PL0003",
+            "name": "Lorenzo Peavey",
+            "team_code": "E00003",
+            "blood_type": "A+",
+            "mail": "",
+            "phone": "(4736) 785-86-68215",
+            "number": "1",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Leann Calvillo",
+                "phone": "(93) 320-82-87706"
+            }
+        },
+        {
+            "code": "PL0005",
+            "name": "Zale Fallis",
+            "team_code": "E00005",
+            "blood_type": "RH+",
+            "mail": "ariellucas@yahoo.com",
+            "phone": "(960) 884-36-10441",
+            "number": "1",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Herrick Hazlett",
+                "phone": "(1072) 395-57-62502"
+            }
+        },
+        {
+            "code": "PL0006",
+            "name": "Kirk Heinlein",
+            "team_code": "E00006",
+            "blood_type": "O-�",
+            "mail": "phernandez@yahoo.com",
+            "phone": "(09) 860-75-73612",
+            "number": "22",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Jeevan Mose",
+                "phone": "(31) 546-63-85166"
+            }
+        },
+        {
+            "code": "PL0008",
+            "name": "Stokley Jimerson",
+            "team_code": "E00008",
+            "blood_type": "",
+            "mail": "matthewknapp@yahoo.com",
+            "phone": "(8199) 787-75-25896",
+            "number": "22",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Guido Noll",
+                "phone": "(780) 589-61-88239"
+            }
+        },
+        {
+            "code": "PL0009",
+            "name": "Benedict Janke",
+            "team_code": "E00009",
+            "blood_type": "O-�",
+            "mail": "curtis55@thornton.com",
+            "phone": "(17) 258-91-61105",
+            "number": "1",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Matari Greco",
+                "phone": "(217) 217-07-88746"
+            }
+        },
+        {
+            "code": "PL0011",
+            "name": "Barnardine Labarbera",
+            "team_code": "E00001",
+            "blood_type": "",
+            "mail": "gallagherkathleen@yahoo.com",
+            "phone": "(57) 405-07-57691",
+            "number": "2",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Darryl Sedlak",
+                "phone": "(9460) 299-80-77207"
+            }
+        },
+        {
+            "code": "PL0012",
+            "name": "Gandolf Lacasse",
+            "team_code": "E00002",
+            "blood_type": "A+",
+            "mail": "",
+            "phone": "(620) 297-15-33069",
+            "number": "3",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0013",
+            "name": "Bowman Kull",
+            "team_code": "E00003",
+            "blood_type": "O-�",
+            "mail": "wwade@hotmail.com",
+            "phone": "(90) 633-69-33410",
+            "number": "2",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Chuck Benes",
+                "phone": "(3935) 532-31-01570"
+            }
+        },
+        {
+            "code": "PL0014",
+            "name": "Bonamy Rascoe",
+            "team_code": "E00004",
+            "blood_type": "",
+            "mail": "akoch@yahoo.com",
+            "phone": "(330) 418-38-08249",
+            "number": "3",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0016",
+            "name": "Bobby Ferrero",
+            "team_code": "E00006",
+            "blood_type": "",
+            "mail": "harrisonsophia@yahoo.com",
+            "phone": "(196) 476-76-75924",
+            "number": "3",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0020",
+            "name": "Corcoran Jimerson",
+            "team_code": "E00010",
+            "blood_type": "B+",
+            "mail": "petersenedward@yahoo.com",
+            "phone": "(1454) 014-16-00651",
+            "number": "3",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Rowson Matthews",
+                "phone": "(175) 940-85-76883"
+            }
+        },
+        {
+            "code": "PL0022",
+            "name": "Heinz Desantiago",
+            "team_code": "E00002",
+            "blood_type": "A-",
+            "mail": "richard62@hotmail.com",
+            "phone": "(4943) 539-22-35549",
+            "number": "20",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Shaunna Seiter",
+                "phone": "(128) 440-68-17065"
+            }
+        },
+        {
+            "code": "PL0023",
+            "name": "Nabil Gil",
+            "team_code": "E00003",
+            "blood_type": "",
+            "mail": "nicole51@mathews.biz",
+            "phone": "(768) 869-22-96367",
+            "number": "6",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Burnum Pfister",
+                "phone": "(26) 887-38-58616"
+            }
+        },
+        {
+            "code": "PL0027",
+            "name": "Mardian Modlin",
+            "team_code": "E00007",
+            "blood_type": "B+",
+            "mail": "kberg@hotmail.com",
+            "phone": "",
+            "number": "6",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Urania Lama",
+                "phone": "(517) 042-44-93573"
+            }
+        },
+        {
+            "code": "PL0029",
+            "name": "Adalardo Wake",
+            "team_code": "E00009",
+            "blood_type": "O-�",
+            "mail": "bbaker@hotmail.com",
+            "phone": "(02) 656-83-27701",
+            "number": "6",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Kiah Bittner",
+                "phone": "(23) 913-78-66443"
+            }
+        },
+        {
+            "code": "PL0037",
+            "name": "Uisdean Wake",
+            "team_code": "E00007",
+            "blood_type": "A+",
+            "mail": "steven15@yahoo.com",
+            "phone": "(876) 988-38-10890",
+            "number": "7",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Carajean Bellinger",
+                "phone": "(181) 692-02-74210"
+            }
+        },
+        {
+            "code": "PL0038",
+            "name": "Varkony Colonna",
+            "team_code": "E00008",
+            "blood_type": "A+",
+            "mail": "anthony65@pena.info",
+            "phone": "(129) 072-03-91100",
+            "number": "19",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Surya Reddy",
+                "phone": "(621) 593-69-82142"
+            }
+        },
+        {
+            "code": "PL0044",
+            "name": "Seely Berman",
+            "team_code": "E00004",
+            "blood_type": "O-�",
+            "mail": "erin67@gomez.info",
+            "phone": "(43) 677-44-18510",
+            "number": "33",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Deana Foltz",
+                "phone": "(30) 971-13-52004"
+            }
+        },
+        {
+            "code": "PL0045",
+            "name": "Gwilym Ferrero",
+            "team_code": "E00005",
+            "blood_type": "A+",
+            "mail": "gcarter@snyder.net",
+            "phone": "(59) 256-95-67582",
+            "number": "11",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Arti McDougall",
+                "phone": "(3846) 610-98-97002"
+            }
+        },
+        {
+            "code": "PL0048",
+            "name": "Millard Mendelson",
+            "team_code": "E00008",
+            "blood_type": "B-",
+            "mail": "stoneblake@hotmail.com",
+            "phone": "",
+            "number": "33",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Ulucan Reddy",
+                "phone": "(05) 550-67-32943"
+            }
+        },
+        {
+            "code": "PL0050",
+            "name": "Vikram Loughran",
+            "team_code": "E00010",
+            "blood_type": "AB-",
+            "mail": "brewererin@wade-cross.com",
+            "phone": "(331) 533-10-46876",
+            "number": "33",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Hanan Kittrell",
+                "phone": "(173) 332-43-22393"
+            }
+        },
+        {
+            "code": "PL0051",
+            "name": "Jimmie Chee",
+            "team_code": "E00001",
+            "blood_type": "RH+",
+            "mail": "",
+            "phone": "(649) 491-52-86671",
+            "number": "9",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Carajean Hard",
+                "phone": "(265) 903-07-04008"
+            }
+        },
+        {
+            "code": "PL0054",
+            "name": "Nehemiah Milne",
+            "team_code": "E00004",
+            "blood_type": "B+",
+            "mail": "browntina@hotmail.com",
+            "phone": "",
+            "number": "99",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Matari Curl",
+                "phone": "(400) 641-88-50080"
+            }
+        },
+        {
+            "code": "PL0057",
+            "name": "Talos Minor",
+            "team_code": "E00007",
+            "blood_type": "O-�",
+            "mail": "gina52@yahoo.com",
+            "phone": "(10) 063-32-16864",
+            "number": "9",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Dory Keyser",
+                "phone": "(220) 009-40-74574"
+            }
+        },
+        {
+            "code": "PL0058",
+            "name": "Lars Bettis",
+            "team_code": "E00008",
+            "blood_type": "RH+",
+            "mail": "",
+            "phone": "(50) 071-52-35509",
+            "number": "99",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0060",
+            "name": "Wheatley Tanksley",
+            "team_code": "E00010",
+            "blood_type": "AB-",
+            "mail": "richmondyolanda@yahoo.com",
+            "phone": "(9375) 375-09-65180",
+            "number": "99",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0063",
+            "name": "Zachary Taormina",
+            "team_code": "E00003",
+            "blood_type": "A-",
+            "mail": "jdean@wheeler.com",
+            "phone": "(0374) 376-38-83670",
+            "number": "10",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Euphemia Grout",
+                "phone": "(194) 706-89-44052"
+            }
+        },
+        {
+            "code": "PL0066",
+            "name": "Padgett Tabor",
+            "team_code": "E00006",
+            "blood_type": "B+",
+            "mail": "nathan60@montes.com",
+            "phone": "(80) 975-69-82884",
+            "number": "14",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "Myriam Kenyon",
+                "phone": "(95) 034-13-82027"
+            }
+        },
+        {
+            "code": "PL0067",
+            "name": "Vittorio Clem",
+            "team_code": "E00007",
+            "blood_type": "AB-",
+            "mail": "houstonmarcus@gmail.com",
+            "phone": "(396) 316-17-98052",
+            "number": "10",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0070",
+            "name": "Diamond Puls",
+            "team_code": "E00010",
+            "blood_type": "",
+            "mail": "mccarthyeugene@gmail.com",
+            "phone": "(4984) 469-91-86765",
+            "number": "14",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0071",
+            "name": "Monte Koger",
+            "team_code": "E00001",
+            "blood_type": "A+",
+            "mail": "",
+            "phone": "(50) 337-44-76536",
+            "number": "8",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0072",
+            "name": "Zion Korn",
+            "team_code": "E00002",
+            "blood_type": "B-",
+            "mail": "martinbenton@yahoo.com",
+            "phone": "(102) 464-05-32400",
+            "number": "12",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0075",
+            "name": "Zenon Tabor",
+            "team_code": "E00005",
+            "blood_type": "B-",
+            "mail": "wagnerrichard@yahoo.com",
+            "phone": "(07) 509-24-91535",
+            "number": "8",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0079",
+            "name": "Moss Christie",
+            "team_code": "E00009",
+            "blood_type": "",
+            "mail": "michelelee@gmail.com",
+            "phone": "(77) 984-28-28700",
+            "number": "8",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0081",
+            "name": "Orelious Watterson",
+            "team_code": "E00001",
+            "blood_type": "A-",
+            "mail": "rhuynh@gmail.com",
+            "phone": "(54) 447-89-61282",
+            "number": "5",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0082",
+            "name": "Feste Driscoll",
+            "team_code": "E00002",
+            "blood_type": "B-",
+            "mail": "jessicawilliams@summers.org",
+            "phone": "(376) 063-43-74046",
+            "number": "16",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0084",
+            "name": "Eglamour Borgen",
+            "team_code": "E00004",
+            "blood_type": "B-",
+            "mail": "georgegarcia@cox.com",
+            "phone": "",
+            "number": "16",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0085",
+            "name": "Eglamour Arvin",
+            "team_code": "E00005",
+            "blood_type": "A+",
+            "mail": "barbarareyes@pierce.com",
+            "phone": "(393) 385-51-84641",
+            "number": "5",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0086",
+            "name": "Ansley Hawn",
+            "team_code": "E00006",
+            "blood_type": "RH+",
+            "mail": "",
+            "phone": "(529) 658-35-68147",
+            "number": "16",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0089",
+            "name": "Rangi Oman",
+            "team_code": "E00009",
+            "blood_type": "O-�",
+            "mail": "hfitzpatrick@greene.com",
+            "phone": "(967) 798-14-81599",
+            "number": "5",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0091",
+            "name": "Talos Ivory",
+            "team_code": "E00001",
+            "blood_type": "A+",
+            "mail": "lmaldonado@hotmail.com",
+            "phone": "",
+            "number": "4",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0092",
+            "name": "Wynford Jaques",
+            "team_code": "E00002",
+            "blood_type": "A+",
+            "mail": "richardsshannon@rodriguez.com",
+            "phone": "(151) 133-13-76022",
+            "number": "17",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0093",
+            "name": "Putnam Garvin",
+            "team_code": "E00003",
+            "blood_type": "RH+",
+            "mail": "rochajeremiah@hotmail.com",
+            "phone": "(623) 935-51-22378",
+            "number": "4",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {}
+        },
+        {
+            "code": "PL0094",
+            "name": "Fingal Radley",
+            "team_code": "E00004",
+            "blood_type": "A-",
+            "mail": "audrey60@thompson.biz",
+            "phone": "(09) 168-50-08779",
+            "number": "17",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0096",
+            "name": "Caius Ellington",
+            "team_code": "E00006",
+            "blood_type": "A+",
+            "mail": "loganpeggy@martinez-cooley.com",
+            "phone": "(7284) 530-53-83173",
+            "number": "17",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0097",
+            "name": "Thorkell Hertel",
+            "team_code": "E00007",
+            "blood_type": "A+",
+            "mail": "",
+            "phone": "(29) 954-07-13219",
+            "number": "4",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0098",
+            "name": "Senon Taormina",
+            "team_code": "E00008",
+            "blood_type": "B-",
+            "mail": "sullivancurtis@mcgrath-johnson.com",
+            "phone": "(066) 114-41-08039",
+            "number": "17",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0099",
+            "name": "Rangi Casteel",
+            "team_code": "E00009",
+            "blood_type": "A-",
+            "mail": "duranjennifer@gmail.com",
+            "phone": "(6006) 017-19-94213",
+            "number": "4",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        },
+        {
+            "code": "PL0100",
+            "name": "Tresco Hollingsworth",
+            "team_code": "E00010",
+            "blood_type": "B-",
+            "mail": "smithrachel@moss-johnson.com",
+            "phone": "(693) 825-06-93235",
+            "number": "17",
+            "photo": "",
+            "captain": "false",
+            "emergency_contact": {
+                "name": "",
+                "phone": ""
+            }
+        }
+    ]
+}

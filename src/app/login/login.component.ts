@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { UseExistingWebDriver } from 'protractor/built/driverProviders';
-import { UserService } from '../services/user.service';
+import { LoginService } from '../services/login.service';
 
 @Component({
   selector: 'app-login',
@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
   post: any = '';
 
   constructor(private formBuilder: FormBuilder,
-              private userService: UserService,
+              private userService: LoginService,
               private router: Router) { }
 
   ngOnInit() {

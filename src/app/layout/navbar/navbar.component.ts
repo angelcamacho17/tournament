@@ -3,7 +3,7 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { User } from '../user';
-import { UserService } from 'src/app/services/user.service';
+import { LoginService } from 'src/app/services/login.service';
 
 @Component({
   selector: 'navbar',
@@ -20,7 +20,7 @@ export class NavbarComponent implements OnInit{
     );
 
   constructor(private breakpointObserver: BreakpointObserver,
-              private userService: UserService) {}
+              private userService: LoginService) {}
 
   ngOnInit(){
     let aux: User = {

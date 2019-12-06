@@ -1,0 +1,73 @@
+{
+    "teams": [{
+            "code": "E00001",
+            "name": "Arepa FC",
+            "shield": "arepas.png",
+            "primary": "#E7262B",
+            "seccondary": "#E7262B"
+        },
+        {
+            "code": "E00002",
+            "name": "Rivar",
+            "shield": "",
+            "primary": "#e91e63",
+            "seccondary": "#202020"
+        },
+        {
+            "code": "E00003",
+            "name": "CA Tetera",
+            "shield": "tetera.png",
+            "primary": "#1F233D",
+            "seccondary": "#FFFFFF"
+        },
+        {
+            "code": "E00004",
+            "name": "Anclas",
+            "shield": "anclas.png",
+            "primary": "#AB1F24",
+            "seccondary": "#1A1A1A"
+        },
+        {
+            "code": "E00005",
+            "name": "El Diegote",
+            "shield": "diego.png",
+            "primary": "#2CA3AA",
+            "seccondary": "#FFFFFF"
+        },
+        {
+            "code": "E00006",
+            "name": "Potrero",
+            "shield": "potrero.png",
+            "primary": "#D1FE27",
+            "seccondary": "#202020"
+        },
+        {
+            "code": "E00007",
+            "name": "Rabona",
+            "shield": "rabona.png",
+            "primary": "#BE9B6B",
+            "seccondary": "#BE9B6B"
+        },
+        {
+            "code": "E00008",
+            "name": "Atletico Zar",
+            "shield": "zar.png",
+            "primary": "#002A64",
+            "seccondary": "#020202"
+        },
+        {
+            "code": "E00009",
+            "name": "Choripan Fc",
+            "shield": "choripan.png",
+            "primary": "#224329",
+            "seccondary": "#224329"
+        },
+        {
+            "code": "E00010",
+            "name": "Toco y me voy",
+            "shield": "",
+            "primary": "#FFAB00",
+            "seccondary": "#FFFFFF"
+        }
+    ]
+}

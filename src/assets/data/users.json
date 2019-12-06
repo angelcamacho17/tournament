@@ -1,0 +1,93 @@
+{
+    "users": [{
+            "team_code": "E00001",
+            "user": "white",
+            "password": "123456",
+            "player_code": "PL0041"
+        },
+        {
+            "team_code": "E00001",
+            "user": "chale",
+            "password": "12345",
+            "player_code": "PL0061"
+        },
+        {
+            "team_code": "E00001",
+            "user": "monte",
+            "password": "1234",
+            "player_code": "PL0071"
+        },
+        {
+            "team_code": "E00002",
+            "user": "hampt",
+            "password": "123456",
+            "player_code": "PL0032"
+        },
+        {
+            "team_code": "E00003",
+            "user": "aubert",
+            "password": "123456",
+            "player_code": "PL0043"
+        },
+        {
+            "team_code": "E00003",
+            "user": "nayan",
+            "password": "1234",
+            "player_code": "PL0033"
+        },
+        {
+            "team_code": "E00004",
+            "user": "nico",
+            "password": "123456",
+            "player_code": "PL0024"
+        },
+        {
+            "team_code": "E00004",
+            "user": "borgen",
+            "password": "12345",
+            "player_code": "PL0084"
+        },
+        {
+            "team_code": "E00005",
+            "user": "kerby",
+            "password": "123456",
+            "player_code": "PL0015"
+        },
+        {
+            "team_code": "E00006",
+            "user": "marcelo",
+            "password": "123456",
+            "player_code": "PL0036"
+        },
+        {
+            "team_code": "E00007",
+            "user": "mogens",
+            "password": "123456",
+            "player_code": "PL0047"
+        },
+        {
+            "team_code": "E00007",
+            "user": "mardian",
+            "password": "1234",
+            "player_code": "PL0027"
+        },
+        {
+            "team_code": "E00008",
+            "user": "anna",
+            "password": "123456",
+            "player_code": "PL0018"
+        },
+        {
+            "team_code": "E00009",
+            "user": "arion",
+            "password": "123456",
+            "player_code": "PL0039"
+        },
+        {
+            "team_code": "E00010",
+            "user": "nabil",
+            "password": "123456",
+            "player_code": "PL0040"
+        }
+    ]
+}

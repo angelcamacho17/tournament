@@ -1,0 +1,903 @@
+{
+    "fixture": [{
+            "date": "2019-10-14T20:00:00",
+            "home": "E00010",
+            "away": "E00001",
+            "round": "1",
+            "match": "1",
+            "score_home": "3",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2019-10-15T20:00:00",
+            "home": "E00009",
+            "away": "E00002",
+            "round": "1",
+            "match": "2",
+            "score_home": "4",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2019-10-16T20:00:00",
+            "home": "E00008",
+            "away": "E00006",
+            "round": "1",
+            "match": "3",
+            "score_home": "4",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2019-10-17T20:00:00",
+            "home": "E00007",
+            "away": "E00003",
+            "round": "1",
+            "match": "4",
+            "score_home": "0",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-10-18T20:00:00",
+            "home": "E00005",
+            "away": "E00004",
+            "round": "1",
+            "match": "5",
+            "score_home": "3",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2019-10-21T20:00:00",
+            "home": "E00002",
+            "away": "E00010",
+            "round": "2",
+            "match": "1",
+            "score_home": "1",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2019-10-22T20:00:00",
+            "home": "E00006",
+            "away": "E00001",
+            "round": "2",
+            "match": "2",
+            "score_home": "0",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2019-10-23T20:00:00",
+            "home": "E00003",
+            "away": "E00009",
+            "round": "2",
+            "match": "3",
+            "score_home": "5",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2019-10-24T20:00:00",
+            "home": "E00004",
+            "away": "E00008",
+            "round": "2",
+            "match": "4",
+            "score_home": "0",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2019-10-25T20:00:00",
+            "home": "E00005",
+            "away": "E00007",
+            "round": "2",
+            "match": "5",
+            "score_home": "2",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2019-10-28T20:00:00",
+            "home": "E00010",
+            "away": "E00008",
+            "round": "3",
+            "match": "1",
+            "score_home": "1",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2019-10-29T20:00:00",
+            "home": "E00007",
+            "away": "E00009",
+            "round": "3",
+            "match": "2",
+            "score_home": "2",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2019-10-30T20:00:00",
+            "home": "E00005",
+            "away": "E00001",
+            "round": "3",
+            "match": "3",
+            "score_home": "5",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2019-10-31T20:00:00",
+            "home": "E00004",
+            "away": "E00002",
+            "round": "3",
+            "match": "4",
+            "score_home": "3",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2019-11-01T20:00:00",
+            "home": "E00003",
+            "away": "E00006",
+            "round": "3",
+            "match": "5",
+            "score_home": "2",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2019-11-04T20:00:00",
+            "home": "E00009",
+            "away": "E00010",
+            "round": "4",
+            "match": "1",
+            "score_home": "1",
+            "score_away": "3",
+            "details": ""
+        },
+        {
+            "date": "2019-11-05T20:00:00",
+            "home": "E00001",
+            "away": "E00008",
+            "round": "4",
+            "match": "2",
+            "score_home": "2",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-11-06T20:00:00",
+            "home": "E00002",
+            "away": "E00007",
+            "round": "4",
+            "match": "3",
+            "score_home": "2",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-11-07T20:00:00",
+            "home": "E00006",
+            "away": "E00005",
+            "round": "4",
+            "match": "4",
+            "score_home": "0",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2019-11-08T20:00:00",
+            "home": "E00003",
+            "away": "E00004",
+            "round": "4",
+            "match": "5",
+            "score_home": "5",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-11-11T20:00:00",
+            "home": "E00010",
+            "away": "E00001",
+            "round": "5",
+            "match": "1",
+            "score_home": "4",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-11-12T20:00:00",
+            "home": "E00009",
+            "away": "E00002",
+            "round": "5",
+            "match": "2",
+            "score_home": "5",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2019-11-13T20:00:00",
+            "home": "E00008",
+            "away": "E00006",
+            "round": "5",
+            "match": "3",
+            "score_home": "5",
+            "score_away": "3",
+            "details": ""
+        },
+        {
+            "date": "2019-11-14T20:00:00",
+            "home": "E00007",
+            "away": "E00003",
+            "round": "5",
+            "match": "4",
+            "score_home": "0",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2019-11-15T20:00:00",
+            "home": "E00005",
+            "away": "E00004",
+            "round": "5",
+            "match": "5",
+            "score_home": "4",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-11-18T20:00:00",
+            "home": "E00002",
+            "away": "E00010",
+            "round": "6",
+            "match": "1",
+            "score_home": "0",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2019-11-19T20:00:00",
+            "home": "E00006",
+            "away": "E00001",
+            "round": "6",
+            "match": "2",
+            "score_home": "0",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2019-11-20T20:00:00",
+            "home": "E00003",
+            "away": "E00009",
+            "round": "6",
+            "match": "3",
+            "score_home": "2",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2019-11-21T20:00:00",
+            "home": "E00004",
+            "away": "E00008",
+            "round": "6",
+            "match": "4",
+            "score_home": "0",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-11-22T20:00:00",
+            "home": "E00005",
+            "away": "E00007",
+            "round": "6",
+            "match": "5",
+            "score_home": "0",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2019-11-25T20:00:00",
+            "home": "E00010",
+            "away": "E00006",
+            "round": "7",
+            "match": "1",
+            "score_home": "0",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2019-11-26T20:00:00",
+            "home": "E00002",
+            "away": "E00003",
+            "round": "7",
+            "match": "2",
+            "score_home": "1",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2019-11-27T20:00:00",
+            "home": "E00001",
+            "away": "E00004",
+            "round": "7",
+            "match": "3",
+            "score_home": "3",
+            "score_away": "3",
+            "details": ""
+        },
+        {
+            "date": "2019-11-28T20:00:00",
+            "home": "E00009",
+            "away": "E00005",
+            "round": "7",
+            "match": "4",
+            "score_home": "0",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2019-11-29T20:00:00",
+            "home": "E00008",
+            "away": "E00007",
+            "round": "7",
+            "match": "5",
+            "score_home": "1",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2019-12-02T20:00:00",
+            "home": "E00003",
+            "away": "E00010",
+            "round": "8",
+            "match": "1",
+            "score_home": "2",
+            "score_away": "3",
+            "details": ""
+        },
+        {
+            "date": "2019-12-03T20:00:00",
+            "home": "E00004",
+            "away": "E00006",
+            "round": "8",
+            "match": "2",
+            "score_home": "0",
+            "score_away": "3",
+            "details": ""
+        },
+        {
+            "date": "2019-12-04T20:00:00",
+            "home": "E00005",
+            "away": "E00002",
+            "round": "8",
+            "match": "3",
+            "score_home": "0",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2019-12-05T20:00:00",
+            "home": "E00007",
+            "away": "E00001",
+            "round": "8",
+            "match": "4",
+            "score_home": "3",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-12-06T20:00:00",
+            "home": "E00008",
+            "away": "E00009",
+            "round": "8",
+            "match": "5",
+            "score_home": "1",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2019-12-09T20:00:00",
+            "home": "E00010",
+            "away": "E00004",
+            "round": "9",
+            "match": "1",
+            "score_home": "4",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-12-10T20:00:00",
+            "home": "E00003",
+            "away": "E00005",
+            "round": "9",
+            "match": "2",
+            "score_home": "2",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-12-11T20:00:00",
+            "home": "E00006",
+            "away": "E00007",
+            "round": "9",
+            "match": "3",
+            "score_home": "0",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-12-12T20:00:00",
+            "home": "E00002",
+            "away": "E00008",
+            "round": "9",
+            "match": "4",
+            "score_home": "3",
+            "score_away": "3",
+            "details": ""
+        },
+        {
+            "date": "2019-12-13T20:00:00",
+            "home": "E00001",
+            "away": "E00009",
+            "round": "9",
+            "match": "5",
+            "score_home": "2",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2019-12-16T20:00:00",
+            "home": "E00005",
+            "away": "E00010",
+            "round": "10",
+            "match": "1",
+            "score_home": "4",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2019-12-17T20:00:00",
+            "home": "E00007",
+            "away": "E00004",
+            "round": "10",
+            "match": "2",
+            "score_home": "4",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-12-18T20:00:00",
+            "home": "E00008",
+            "away": "E00003",
+            "round": "10",
+            "match": "3",
+            "score_home": "1",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2019-12-19T20:00:00",
+            "home": "E00009",
+            "away": "E00006",
+            "round": "10",
+            "match": "4",
+            "score_home": "2",
+            "score_away": "3",
+            "details": ""
+        },
+        {
+            "date": "2019-12-20T20:00:00",
+            "home": "E00001",
+            "away": "E00002",
+            "round": "10",
+            "match": "5",
+            "score_home": "4",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2020-01-06T20:00:00",
+            "home": "E00010",
+            "away": "E00007",
+            "round": "11",
+            "match": "1",
+            "score_home": "2",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-01-07T20:00:00",
+            "home": "E00005",
+            "away": "E00008",
+            "round": "11",
+            "match": "2",
+            "score_home": "4",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2020-01-08T20:00:00",
+            "home": "E00004",
+            "away": "E00009",
+            "round": "11",
+            "match": "3",
+            "score_home": "5",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2020-01-09T20:00:00",
+            "home": "E00003",
+            "away": "E00001",
+            "round": "11",
+            "match": "4",
+            "score_home": "1",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2020-01-10T20:00:00",
+            "home": "E00006",
+            "away": "E00002",
+            "round": "11",
+            "match": "5",
+            "score_home": "2",
+            "score_away": "3",
+            "details": ""
+        },
+        {
+            "date": "2020-01-13T20:00:00",
+            "home": "E00008",
+            "away": "E00010",
+            "round": "12",
+            "match": "1",
+            "score_home": "2",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-01-14T20:00:00",
+            "home": "E00009",
+            "away": "E00007",
+            "round": "12",
+            "match": "2",
+            "score_home": "1",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-01-15T20:00:00",
+            "home": "E00001",
+            "away": "E00005",
+            "round": "12",
+            "match": "3",
+            "score_home": "5",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-01-16T20:00:00",
+            "home": "E00002",
+            "away": "E00004",
+            "round": "12",
+            "match": "4",
+            "score_home": "4",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-01-17T20:00:00",
+            "home": "E00006",
+            "away": "E00003",
+            "round": "12",
+            "match": "5",
+            "score_home": "3",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2020-01-20T20:00:00",
+            "home": "E00010",
+            "away": "E00009",
+            "round": "13",
+            "match": "1",
+            "score_home": "4",
+            "score_away": "3",
+            "details": ""
+        },
+        {
+            "date": "2020-01-21T20:00:00",
+            "home": "E00008",
+            "away": "E00001",
+            "round": "13",
+            "match": "2",
+            "score_home": "1",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2020-01-22T20:00:00",
+            "home": "E00007",
+            "away": "E00002",
+            "round": "13",
+            "match": "3",
+            "score_home": "3",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2020-01-23T20:00:00",
+            "home": "E00005",
+            "away": "E00006",
+            "round": "13",
+            "match": "4",
+            "score_home": "3",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2020-01-24T20:00:00",
+            "home": "E00004",
+            "away": "E00003",
+            "round": "13",
+            "match": "5",
+            "score_home": "3",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-01-27T20:00:00",
+            "home": "E00001",
+            "away": "E00010",
+            "round": "14",
+            "match": "1",
+            "score_home": "0",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2020-01-28T20:00:00",
+            "home": "E00002",
+            "away": "E00009",
+            "round": "14",
+            "match": "2",
+            "score_home": "2",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-01-29T20:00:00",
+            "home": "E00006",
+            "away": "E00008",
+            "round": "14",
+            "match": "3",
+            "score_home": "0",
+            "score_away": "3",
+            "details": ""
+        },
+        {
+            "date": "2020-01-30T20:00:00",
+            "home": "E00003",
+            "away": "E00007",
+            "round": "14",
+            "match": "4",
+            "score_home": "3",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2020-01-31T20:00:00",
+            "home": "E00004",
+            "away": "E00005",
+            "round": "14",
+            "match": "5",
+            "score_home": "1",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2020-02-10T20:00:00",
+            "home": "E00010",
+            "away": "E00002",
+            "round": "15",
+            "match": "1",
+            "score_home": "5",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2020-02-11T20:00:00",
+            "home": "E00001",
+            "away": "E00006",
+            "round": "15",
+            "match": "2",
+            "score_home": "0",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2020-02-12T20:00:00",
+            "home": "E00009",
+            "away": "E00003",
+            "round": "15",
+            "match": "3",
+            "score_home": "5",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2020-02-13T20:00:00",
+            "home": "E00008",
+            "away": "E00004",
+            "round": "15",
+            "match": "4",
+            "score_home": "4",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2020-02-14T20:00:00",
+            "home": "E00007",
+            "away": "E00005",
+            "round": "15",
+            "match": "5",
+            "score_home": "3",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2020-02-17T20:00:00",
+            "home": "E00006",
+            "away": "E00010",
+            "round": "16",
+            "match": "1",
+            "score_home": "4",
+            "score_away": "4",
+            "details": ""
+        },
+        {
+            "date": "2020-02-18T20:00:00",
+            "home": "E00003",
+            "away": "E00002",
+            "round": "16",
+            "match": "2",
+            "score_home": "2",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-02-19T20:00:00",
+            "home": "E00004",
+            "away": "E00001",
+            "round": "16",
+            "match": "3",
+            "score_home": "2",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-02-20T20:00:00",
+            "home": "E00005",
+            "away": "E00009",
+            "round": "16",
+            "match": "4",
+            "score_home": "1",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-02-21T20:00:00",
+            "home": "E00007",
+            "away": "E00008",
+            "round": "16",
+            "match": "5",
+            "score_home": "4",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2020-02-24T20:00:00",
+            "home": "E00010",
+            "away": "E00003",
+            "round": "17",
+            "match": "1",
+            "score_home": "2",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-02-25T20:00:00",
+            "home": "E00006",
+            "away": "E00004",
+            "round": "17",
+            "match": "2",
+            "score_home": "2",
+            "score_away": "5",
+            "details": ""
+        },
+        {
+            "date": "2020-02-26T20:00:00",
+            "home": "E00002",
+            "away": "E00005",
+            "round": "17",
+            "match": "3",
+            "score_home": "4",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2020-02-27T20:00:00",
+            "home": "E00001",
+            "away": "E00007",
+            "round": "17",
+            "match": "4",
+            "score_home": "0",
+            "score_away": "1",
+            "details": ""
+        },
+        {
+            "date": "2020-02-28T20:00:00",
+            "home": "E00009",
+            "away": "E00008",
+            "round": "17",
+            "match": "5",
+            "score_home": "1",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2020-03-02T20:00:00",
+            "home": "E00004",
+            "away": "E00010",
+            "round": "18",
+            "match": "1",
+            "score_home": "5",
+            "score_away": "2",
+            "details": ""
+        },
+        {
+            "date": "2020-03-03T20:00:00",
+            "home": "E00005",
+            "away": "E00003",
+            "round": "18",
+            "match": "2",
+            "score_home": "2",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2020-03-04T20:00:00",
+            "home": "E00007",
+            "away": "E00006",
+            "round": "18",
+            "match": "3",
+            "score_home": "3",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2020-03-05T20:00:00",
+            "home": "E00008",
+            "away": "E00002",
+            "round": "18",
+            "match": "4",
+            "score_home": "3",
+            "score_away": "0",
+            "details": ""
+        },
+        {
+            "date": "2020-03-06T20:00:00",
+            "home": "E00009",
+            "away": "E00001",
+            "round": "18",
+            "match": "5",
+            "score_home": "2",
+            "score_away": "3",
+            "details": ""
+        }
+    ]
+}

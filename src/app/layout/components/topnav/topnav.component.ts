@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
-import { UserService } from 'src/app/services/user.service';
+import { LoginService } from 'src/app/services/login.service';
 
 @Component({
     selector: 'topnav',
@@ -11,7 +11,7 @@ export class TopnavComponent implements OnInit {
     public pushRightClass: string;
 
     constructor(public router: Router,
-                private userService: UserService) {
+                private userService: LoginService) {
         this.router.events.subscribe(val => {
             if (val instanceof NavigationEnd && window.innerWidth <= 992 && this.isToggled()) {
                 this.toggleSidebar();
