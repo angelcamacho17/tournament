@@ -4,34 +4,32 @@ import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { catchError, tap } from 'rxjs/operators';
 import { throwError, Observable } from 'rxjs';
+import { Team } from '../shared/team';
 
 @Injectable({
   providedIn: 'root'
 })
-export class LoginService {
-  private user: User;
-  constructor(private router: Router,
-              private http: HttpClient) {
+export class DataService {
+  private users: User[] = [];
+  private teams: Team[] = [];
+
+  constructor(private http: HttpClient) {
   }
 
-  getUser(): User {
-    return this.user;
-  }
+  getTeams(): Observable<Team[]>{
+    return this.http.get<Team[]>("assets/data/teams.json")
+     .pipe(
+       tap(data => this.teams = data),
+       catchError(this.handleError)
+     );
+   }
 
-  setUser(user: User){
-    this.user = user;
-  }
-  
-  logIn(user): void {
-    this.setUser(user);
-    localStorage.setItem('isLoggedin', 'true');
-    this.router.navigate(['/dashboard']);
-  }
-  
-  logOut(): void{
-    this.user = null;
-    localStorage.removeItem('isLoggedin');
-    this.router.navigate(['/login']);
+  getUsers(): Observable<User[]>{
+   return this.http.get<User[]>("assets/data/users.json")
+    .pipe(
+      tap(data => this.users = data),
+      catchError(this.handleError)
+    );
   }
 
   private handleError(err) {

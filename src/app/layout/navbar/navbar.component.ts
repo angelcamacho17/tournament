@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { User } from '../user';
+import { User } from '../../shared/user';
 import { LoginService } from 'src/app/services/login.service';
 
 @Component({
@@ -24,11 +24,10 @@ export class NavbarComponent implements OnInit{
 
   ngOnInit(){
     let aux: User = {
-      id: 1,
-      imageUrl: "string",
+      team_code: "2",
+      user: "angel",
       password: "string",
-      email : 'angel@gm.vom',
-      team : 'arepa'
+      player_code: "string",
     };
     this.user = this.userService.getUser() !== undefined && this.userService.getUser() !== null ? this.userService.getUser() : aux;
   }

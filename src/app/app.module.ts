@@ -9,6 +9,7 @@ import { AuthGuard } from './shared/guard';
 import { LayoutModule } from './layout/layout.module';
 import { LoginService } from './services/login.service';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
+import { DataService } from './services/data.service';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     MatIconModule,
     MatListModule,
   ],
-  providers: [ AuthGuard , LoginService ],
+  providers: [ AuthGuard , LoginService, DataService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

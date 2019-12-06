@@ -4,6 +4,7 @@ import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms'
 import { Observable } from 'rxjs';
 import { UseExistingWebDriver } from 'protractor/built/driverProviders';
 import { LoginService } from '../services/login.service';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-login',
@@ -18,10 +19,17 @@ export class LoginComponent implements OnInit {
 
   constructor(private formBuilder: FormBuilder,
               private loginService: LoginService,
+              private dataService: DataService,
               private router: Router) { }
 
   ngOnInit() {
     this.createForm();
+    this.dataService.getUsers().subscribe(data=>{
+      console.log(data);
+    });
+    this.dataService.getTeams().subscribe(data=>{
+      console.log(data);
+    });
   }
 
   createForm() {
