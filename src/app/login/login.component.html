@@ -10,7 +10,11 @@
           <div fxFlex  fxlayout="row" fxlayout.lt-md="column">
               <div fxFlexFill>
                 <mat-form-field class="w-100">
-                    <input matInput placeholder="Team" formControlName="team">
+                    <mat-select placeholder="Team" name="team" >
+                      <mat-option *ngFor="let team of teams" value="team.code">
+                        {{team.name}}
+                      </mat-option>
+                    </mat-select>
                     <mat-error *ngIf="!team.valid && team.touched">
                       {{ titleAlert }}
                     </mat-error>
@@ -20,9 +24,9 @@
           <div fxFlex  fxlayout="row" fxlayout.lt-md="column">
               <div fxFlexFill>
                 <mat-form-field class="w-100">
-                  <input matInput placeholder="Email" formControlName="email">
-                  <mat-error *ngIf="!formGroup.controls['email'].valid && formGroup.controls['email'].touched">
-                    {{ getErrorEmail() }}
+                  <input matInput placeholder="Player" formControlName="user">
+                  <mat-error *ngIf="!formGroup.controls['user'].valid && formGroup.controls['user'].touched">
+                    {{ getErrorUser() }}
                   </mat-error>
                 </mat-form-field>
               </div>

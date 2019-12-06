@@ -5,6 +5,8 @@ import { Observable } from 'rxjs';
 import { UseExistingWebDriver } from 'protractor/built/driverProviders';
 import { LoginService } from '../services/login.service';
 import { DataService } from '../services/data.service';
+import { Team } from '../shared/team';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',
@@ -14,28 +16,28 @@ import { DataService } from '../services/data.service';
 export class LoginComponent implements OnInit {
 
   formGroup: FormGroup;
+  teams: Team[] = [];
   titleAlert: string = 'This field is required';
   post: any = '';
 
   constructor(private formBuilder: FormBuilder,
-              private loginService: LoginService,
-              private dataService: DataService,
-              private router: Router) { }
+    private loginService: LoginService,
+    private dataService: DataService,
+    private router: Router,
+    private http: HttpClient) {
 
-  ngOnInit() {
-    this.createForm();
-    this.dataService.getUsers().subscribe(data=>{
-      console.log(data);
-    });
-    this.dataService.getTeams().subscribe(data=>{
-      console.log(data);
+    this.dataService.getTeams().subscribe((data:any)=>{
+      this.teams = data;
     });
   }
 
+  ngOnInit() {
+    this.createForm();
+  }
+
   createForm() {
-    let emailregex: RegExp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
     this.formGroup = this.formBuilder.group({
-      'email': [null, [Validators.required, Validators.pattern(emailregex)], this.checkInUseEmail],
+      'user': [null, [Validators.required], this.checkInUseUser],
       'team': [null, Validators.required],
       'password': [null, [Validators.required]] //, this.checkPassword]],
     });
@@ -51,7 +53,7 @@ export class LoginComponent implements OnInit {
     return (!passwordCheck.test(enteredPassword) && enteredPassword) ? { 'requirements': true } : null;
   }
 
-  checkInUseEmail(control) {
+  checkInUseUser(control) {
     // mimic http database access
     let db = ['tony@gmail.com'];
     return new Observable(observer => {
@@ -63,10 +65,9 @@ export class LoginComponent implements OnInit {
     })
   }
 
-  getErrorEmail() {
-    return this.formGroup.get('email').hasError('required') ? 'Field is required' :
-      this.formGroup.get('email').hasError('pattern') ? 'Not a valid emailaddress' :
-        this.formGroup.get('email').hasError('alreadyInUse') ? 'This emailaddress is already in use' : '';
+  getErrorUser() {
+    return this.formGroup.get('user').hasError('required') ? 'Field is required' :
+      this.formGroup.get('user').hasError('alreadyInUse') ? 'This user name is already in use' : '';
   }
 
   getErrorPassword() {

@@ -7,7 +7,8 @@ import {
     MatListModule,
     MatMenuModule,
     MatSidenavModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatSelectModule 
 } from '@angular/material';
 import { LayoutComponent } from './layout.component';
 import { LayoutRoutingModule } from './layout-routing.module';
@@ -23,7 +24,8 @@ import { NavbarComponent } from './navbar/navbar.component';
       MatIconModule,
       MatInputModule,
       MatMenuModule,
-      MatListModule
+      MatListModule,
+      MatSelectModule 
   ],
   declarations: [ LayoutComponent, NavbarComponent]
 })
