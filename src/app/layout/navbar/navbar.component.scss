@@ -27,8 +27,7 @@
   top: -40px;
   align-items: center;
   text-align: center;
-  margin-bottom: -41px;
-  border-bottom: 1px solid grey;
+  margin-bottom: -72px;
   z-index: 1;
   padding: 14px;
 }
@@ -37,6 +36,12 @@
   top: 13px;
   align-items: center;
   text-align: center;
+  margin-top: -29px;
+}
+
+.image{
+  display: flex;
+  align-items: center;
 }
 
 .profile-img{
@@ -49,8 +54,15 @@
    z-index: 2;
    padding-right: 15px;
    padding-left: 15px;
-   position: absolute;
 }
+ .line {
+  -webkit-box-flex: 1;
+  flex: 1;
+  content: '';
+  height: 1px;
+  background: black;
+  -webkit-box-reflect: left;
+ }
 
 .mat-nav-list {
   width: 100%;
