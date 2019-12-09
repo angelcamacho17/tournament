@@ -1,3 +1,21 @@
-<p>
-  team works!
-</p>
+<div class="card-list" *ngFor="let team of teams">
+  
+  <mat-card class="card">
+      <div *ngIf="team?.shield">
+        <img class="center-block img-responsive"
+        [style.height.px]="130"
+        [style.margin.px]="2"
+        src="assets/images/teams/{{team?.shield}}">
+      </div>
+      <div *ngIf="!team?.shield">
+          <img class="center-block img-responsive"
+          [style.height.px]="130"
+          [style.margin.px]="2"
+          src="assets/images/teams/No_Logo_Available.png">
+      </div>
+      <div class="line"></div>
+      <div class="title">
+        {{team.name}}
+      </div>
+  </mat-card>
+</div>

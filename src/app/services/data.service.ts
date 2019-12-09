@@ -24,13 +24,13 @@ export class DataService {
     public getTeams(): Observable<Team[]> {
         if (this.teams) {
             console.warn('YA LO TENIA');
-            console.log(this.teams);
+            //console.log(this.teams);
             return of(this.teams);
         } else {
             console.warn('no lo tengo');
             return this.http.get<any>("assets/data/teams.json").pipe(map((data: any) => {
                 this.teams = data.teams;
-                console.log(this.teams);
+                //console.log(this.teams);
                 return this.teams;
             }))
         }
@@ -38,14 +38,14 @@ export class DataService {
 
     getUsers():  Observable<User[]> {
         if (this.users) {
-            console.warn('YA LO TENIA');
-            console.log(this.users);
+            //console.warn('YA LO TENIA');
+            //console.log(this.users);
             return of(this.users);
         } else {
-            console.warn('no lo tengo');
+            //console.warn('no lo tengo');
             return this.http.get<any>("assets/data/users.json").pipe(map((data: any) => {
                 this.users = data.users;
-                console.log(this.users);
+                //console.log(this.users);
                 return this.users;
             }))
         }

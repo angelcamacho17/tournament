@@ -31,8 +31,8 @@ export class NavbarComponent implements OnInit{
   ngOnInit(){
     if (this.loginService.getUser() === undefined || this.loginService.getUser() === null)
     {
-      this.logOut();
-      return; 
+      // this.logOut();
+      // return; 
     } 
     else {
       this.user = this.loginService.getUser();
