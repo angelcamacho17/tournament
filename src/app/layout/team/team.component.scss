@@ -23,6 +23,17 @@
         background: black;
         margin: 5px;
     }
+    @media screen and (max-width: 618px) {
+        .line{
+            display: none;
+        }
+        .card{
+            display: inline-flex;
+        }
+        .title{
+            align-self: center;
+        }
+    }
 }
 
 /* Row Gap */
@@ -30,5 +41,9 @@
 margin-bottom: 32px;
 }
 
-
+@media screen and (max-width: 618px) {
+    .card-list{
+      width: 91%;
+    }
+}
   
