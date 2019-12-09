@@ -4,6 +4,8 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { User } from '../../shared/user';
 import { LoginService } from 'src/app/services/login.service';
+import { Team } from 'src/app/shared/team';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'navbar',
@@ -13,6 +15,9 @@ import { LoginService } from 'src/app/services/login.service';
 export class NavbarComponent implements OnInit{
 
   public user: User;
+  public team: Team;
+  public teamImageUrl: string = "assets/images/teams/";
+  public userImageUrl: string = "assets/images/players/"
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
@@ -20,19 +25,26 @@ export class NavbarComponent implements OnInit{
     );
 
   constructor(private breakpointObserver: BreakpointObserver,
-              private userService: LoginService) {}
+              private loginService: LoginService,
+              private dataService: DataService) {}
 
   ngOnInit(){
-    let aux: User = {
-      team_code: "2",
-      user: "angel",
-      password: "string",
-      player_code: "string",
-    };
-    this.user = this.userService.getUser() !== undefined && this.userService.getUser() !== null ? this.userService.getUser() : aux;
+    if (this.loginService.getUser() === undefined || this.loginService.getUser() === null)
+    {
+      this.logOut();
+      return; 
+    } 
+    else {
+      this.user = this.loginService.getUser();
+      this.team = this.dataService.getTeam(this.user.team_code);
+      this.teamImageUrl = this.teamImageUrl + this.team.shield;
+      this.userImageUrl = this.userImageUrl + this.user.player_code+".jpg";
+      console.log(this.team);
+      console.log(this.user);
+    }
   }
 
   logOut(): void{
-    this.userService.logOut();
+    this.loginService.logOut();
   }
 }

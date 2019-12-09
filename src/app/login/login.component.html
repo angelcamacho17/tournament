@@ -10,8 +10,8 @@
           <div fxFlex  fxlayout="row" fxlayout.lt-md="column">
               <div fxFlexFill>
                 <mat-form-field class="w-100">
-                    <mat-select placeholder="Team" name="team" >
-                      <mat-option *ngFor="let team of teams" value="team.code">
+                    <mat-select placeholder="Team" formControlName="team" >
+                      <mat-option *ngFor="let team of teams" value="{{team.code}}">
                         {{team.name}}
                       </mat-option>
                     </mat-select>
@@ -43,4 +43,8 @@
           </div>
         </form>
     </div>
+</div>
+
+<div class="alert alert-danger"
+     *ngIf="errorMessage">{{errorMessage}}
 </div>

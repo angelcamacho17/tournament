@@ -7,6 +7,7 @@ import { LoginService } from '../services/login.service';
 import { DataService } from '../services/data.service';
 import { Team } from '../shared/team';
 import { HttpClient } from '@angular/common/http';
+import { User } from '../shared/user';
 
 @Component({
   selector: 'app-login',
@@ -17,8 +18,10 @@ export class LoginComponent implements OnInit {
 
   formGroup: FormGroup;
   teams: Team[] = [];
+  users: User[] = [];
   titleAlert: string = 'This field is required';
   post: any = '';
+  errorMessage: string;
 
   constructor(private formBuilder: FormBuilder,
     private loginService: LoginService,
@@ -28,6 +31,9 @@ export class LoginComponent implements OnInit {
 
     this.dataService.getTeams().subscribe((data:any)=>{
       this.teams = data;
+    });
+    this.dataService.getUsers().subscribe((data:any)=>{
+      this.users = data;
     });
   }
 

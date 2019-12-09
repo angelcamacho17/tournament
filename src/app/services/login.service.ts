@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { catchError, tap } from 'rxjs/operators';
 import { throwError, Observable } from 'rxjs';
+import { DataService } from './data.service';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,8 @@ import { throwError, Observable } from 'rxjs';
 export class LoginService {
   private user: User;
   constructor(private router: Router,
-              private http: HttpClient) {
+              private http: HttpClient,
+              private dataService: DataService) {
   }
 
   getUser(): User {
@@ -22,8 +24,14 @@ export class LoginService {
     this.user = user;
   }
   
-  logIn(user): void {
-    this.setUser(user);
+  logIn(post): void {
+    if ( this.dataService.getUser(post.user) === undefined){
+      return ;
+    }
+    this.setUser(this.dataService.getUser(post.user));
+    if ( this.user.team_code !== post.team){
+      return;
+    }
     localStorage.setItem('isLoggedin', 'true');
     this.router.navigate(['/dashboard']);
   }

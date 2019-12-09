@@ -11,33 +11,48 @@ import { map } from 'rxjs/operators';
     providedIn: 'root'
 })
 export class DataService {
-    private users: User[] = [];
+    private users: User[];
     private teams: Team[];
 
     constructor(private http: HttpClient) {
-        // this.http.get<Team[]>("assets/data/teams.json").subscribe((data:any)=>{
-        //     this.teams = data.teams;
-        // });
-        // this.http.get<User[]>("assets/data/users.json").subscribe(data=>{
-        //     this.users = data; console.log(data);
-        // });
+    }
+
+    public getTeam(code: string): Team{
+        return this.teams.find(team => team.code === code);
     }
 
     public getTeams(): Observable<Team[]> {
         if (this.teams) {
             console.warn('YA LO TENIA');
+            console.log(this.teams);
             return of(this.teams);
         } else {
             console.warn('no lo tengo');
             return this.http.get<any>("assets/data/teams.json").pipe(map((data: any) => {
                 this.teams = data.teams;
+                console.log(this.teams);
                 return this.teams;
             }))
         }
     }
 
-    getUsers(): User[] {
-        return this.users;
+    getUsers():  Observable<User[]> {
+        if (this.users) {
+            console.warn('YA LO TENIA');
+            console.log(this.users);
+            return of(this.users);
+        } else {
+            console.warn('no lo tengo');
+            return this.http.get<any>("assets/data/users.json").pipe(map((data: any) => {
+                this.users = data.users;
+                console.log(this.users);
+                return this.users;
+            }))
+        }
+    }
+
+    getUser(code: string): User{
+        return this.users.find(user => user.user === code );
     }
 
     //   Teams(): Observable<Team[]>{
