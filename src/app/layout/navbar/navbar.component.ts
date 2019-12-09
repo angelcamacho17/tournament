@@ -6,6 +6,7 @@ import { User } from '../../shared/user';
 import { LoginService } from 'src/app/services/login.service';
 import { Team } from 'src/app/shared/team';
 import { DataService } from 'src/app/services/data.service';
+import { Player } from 'src/app/shared/player';
 
 @Component({
   selector: 'navbar',
@@ -14,7 +15,7 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class NavbarComponent implements OnInit{
 
-  public user: User;
+  public player: Player;
   public team: Team;
   public teamImageUrl: string = "assets/images/teams/";
   public userImageUrl: string = "assets/images/players/"
@@ -32,15 +33,15 @@ export class NavbarComponent implements OnInit{
     if (this.loginService.getUser() === undefined || this.loginService.getUser() === null)
     {
       // this.logOut();
-      // return; 
-    } 
+      // return;
+    }
     else {
-      this.user = this.loginService.getUser();
-      this.team = this.dataService.getTeam(this.user.team_code);
+      this.player = this.dataService.getPlayer(this.loginService.getUser().player_code);
+      this.team = this.dataService.getTeam(this.player.team_code);
       this.teamImageUrl = this.teamImageUrl + this.team.shield;
-      this.userImageUrl = this.userImageUrl + this.user.player_code+".jpg";
+      this.userImageUrl = this.userImageUrl + this.player.code+".jpg";
       console.log(this.team);
-      console.log(this.user);
+      console.log(this.player);
     }
   }
 

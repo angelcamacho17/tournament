@@ -24,16 +24,16 @@ export class LoginService {
     this.user = user;
   }
   
-  logIn(post): void {
+  logIn(post): boolean {
     if ( this.dataService.getUser(post.user) === undefined){
-      return ;
+      return false;
     }
     this.setUser(this.dataService.getUser(post.user));
     if ( this.user.team_code !== post.team){
-      return;
+      return false;
     }
     localStorage.setItem('isLoggedin', 'true');
-    this.router.navigate(['/dashboard']);
+    return true;
   }
   
   logOut(): void{

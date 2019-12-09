@@ -8,6 +8,7 @@ import { DataService } from '../services/data.service';
 import { Team } from '../shared/team';
 import { HttpClient } from '@angular/common/http';
 import { User } from '../shared/user';
+import { Player } from '../shared/player';
 
 @Component({
   selector: 'app-login',
@@ -19,6 +20,7 @@ export class LoginComponent implements OnInit {
   formGroup: FormGroup;
   teams: Team[] = [];
   users: User[] = [];
+  players: Player[] = [];
   titleAlert: string = 'This field is required';
   post: any = '';
   errorMessage: string;
@@ -34,6 +36,9 @@ export class LoginComponent implements OnInit {
     });
     this.dataService.getUsers().subscribe((data:any)=>{
       this.users = data;
+    });
+    this.dataService.getPlayers().subscribe((data:any)=>{
+      this.players = data;
     });
   }
 
@@ -82,7 +87,9 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit(post): void {
-    this.loginService.logIn(post);
+    if (this.loginService.logIn(post)){
+      this.router.navigate(['/dashboard']);
+    }
   }
 
 }

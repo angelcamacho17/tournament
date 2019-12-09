@@ -6,6 +6,7 @@ import { catchError, tap } from 'rxjs/operators';
 import { throwError, Observable, of } from 'rxjs';
 import { Team } from '../shared/team';
 import { map } from 'rxjs/operators';
+import { Player } from '../shared/player';
 
 @Injectable({
     providedIn: 'root'
@@ -13,6 +14,7 @@ import { map } from 'rxjs/operators';
 export class DataService {
     private users: User[];
     private teams: Team[];
+    private players: Player[];
 
     constructor(private http: HttpClient) {
     }
@@ -23,20 +25,20 @@ export class DataService {
 
     public getTeams(): Observable<Team[]> {
         if (this.teams) {
-            console.warn('YA LO TENIA');
-            //console.log(this.teams);
+            // console.warn('YA LO TENIA');
+            // console.log(this.teams);
             return of(this.teams);
         } else {
-            console.warn('no lo tengo');
+            //console.warn('no lo tengo');
             return this.http.get<any>("assets/data/teams.json").pipe(map((data: any) => {
                 this.teams = data.teams;
-                //console.log(this.teams);
+                console.log(this.teams);
                 return this.teams;
             }))
         }
     }
 
-    getUsers():  Observable<User[]> {
+    public getUsers():  Observable<User[]> {
         if (this.users) {
             //console.warn('YA LO TENIA');
             //console.log(this.users);
@@ -51,25 +53,28 @@ export class DataService {
         }
     }
 
-    getUser(code: string): User{
+    public getUser(code: string): User{
         return this.users.find(user => user.user === code );
     }
 
-    //   Teams(): Observable<Team[]>{
-    //     return this.http.get<Team[]>("assets/data/teams.json")
-    //      .pipe(
-    //        tap(data => this.teams = data),
-    //        catchError(this.handleError)
-    //      );
-    //    }
+    public getPlayers():  Observable<Player[]> {
+        if (this.players) {
+            console.warn('YA LO TENIA');
+            console.log(this.players);
+            return of(this.players);
+        } else {
+            //console.warn('no lo tengo');
+            return this.http.get<any>("assets/data/players.json").pipe(map((data: any) => {
+                this.players = data.players;
+                console.log(this.players);
+                return this.players;
+            }))
+        }
+    }
 
-    //   getUsers(): Observable<User[]>{
-    //    return this.http.get<User[]>("assets/data/users.json")
-    //     .pipe(
-    //       tap(data => this.users = data),
-    //       catchError(this.handleError)
-    //     );
-    //   }
+    public getPlayer(code: string): Player{
+        return this.players.find(user => user.code === code );
+    }
 
     private handleError(err) {
         // in a real world app, we may send the server to some remote logging infrastructure

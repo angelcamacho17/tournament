@@ -1,0 +1,56 @@
+.player-page {
+    display: flex;
+    justify-content: center;
+    height: 87%;
+    position: relative;
+    padding: 30px;
+    .content {
+        z-index: 1;
+        display: flex;
+        padding-bottom: 40px;
+        background: #fff;
+        width: 600px;
+        height: 200px;
+        margin: 50px;
+        input:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0 30px white inset;
+        }
+        .profile-img{
+            height: 120px;
+        }
+        .info-top{
+            height: 120px;
+            margin-left: 12px;
+            margin-right: 12px;
+            width: 100%;
+            display: inline-grid;
+            .info-top-in{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .name{
+                }
+                .number{
+                }
+            }
+            .team{
+                margin-top: -15px;
+                margin-bottom: -10px;
+            }
+        }
+        .info-bottom{
+            position: fixed;
+            top: 270px;
+            display: flex;
+            width: inherit;
+            justify-content: space-around;
+        }
+        .info-bottom-2{
+            position: fixed;
+            top: 320px;
+            display: flex;
+            width: inherit;
+            justify-content: space-around;
+        }
+    }
+}
