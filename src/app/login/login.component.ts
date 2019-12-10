@@ -20,7 +20,6 @@ export class LoginComponent implements OnInit {
   formGroup: FormGroup;
   teams: Team[] = [];
   users: User[] = [];
-  players: Player[] = [];
   titleAlert: string = 'This field is required';
   post: any = '';
   errorMessage: string;
@@ -36,9 +35,6 @@ export class LoginComponent implements OnInit {
     });
     this.dataService.getUsers().subscribe((data:any)=>{
       this.users = data;
-    });
-    this.dataService.getPlayers().subscribe((data:any)=>{
-      this.players = data;
     });
   }
 

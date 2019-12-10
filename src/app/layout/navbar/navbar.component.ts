@@ -15,6 +15,7 @@ import { Player } from 'src/app/shared/player';
 })
 export class NavbarComponent implements OnInit{
 
+  public user: User;
   public player: Player;
   public team: Team;
   public teamImageUrl: string = "assets/images/teams/";
@@ -36,10 +37,11 @@ export class NavbarComponent implements OnInit{
       // return;
     }
     else {
-      this.player = this.dataService.getPlayer(this.loginService.getUser().player_code);
-      this.team = this.dataService.getTeam(this.player.team_code);
+      //this.player = this.dataService.getPlayer(this.loginService.getUser().player_code);
+      this.user = this.loginService.getUser();
+      this.team = this.dataService.getTeam(this.user.team_code);
       this.teamImageUrl = this.teamImageUrl + this.team.shield;
-      this.userImageUrl = this.userImageUrl + this.player.code+".jpg";
+      this.userImageUrl = this.userImageUrl + this.user.player_code+".jpg";
       console.log(this.team);
       console.log(this.player);
     }
