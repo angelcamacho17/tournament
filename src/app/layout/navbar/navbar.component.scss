@@ -131,27 +131,27 @@
     .sidenav-content {
       display: flex;
       flex-flow: row wrap;
+      height: 100%;
       .first {
-       flex: 0 0 100%; 
-       .list{
+      flex: 0 0 100%; 
+      .list{
         text-align: center;
         flex: auto;
+        }
       }
-     }
+      .second{
+        text-align: center;
+        position: absolute;
+        width: 250px;
+        bottom: 0px;
+      }
+      @media screen and (max-height: 614px) {
+        .second{
+          position: relative;
+        }
+      }
     }
   }
 }
 
 
-.second{
-  text-align: center;
-  position: absolute;
-  width: 250px;
-  bottom: 0px;
- }
-
- @media screen and (max-height: 614px) {
-  .second{
-    position: relative;
-   }
-}

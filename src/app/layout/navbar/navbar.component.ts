@@ -42,8 +42,6 @@ export class NavbarComponent implements OnInit{
       this.team = this.dataService.getTeam(this.user.team_code);
       this.teamImageUrl = this.teamImageUrl + this.team.shield;
       this.userImageUrl = this.userImageUrl + this.user.player_code+".jpg";
-      console.log(this.team);
-      console.log(this.player);
     }
   }
 

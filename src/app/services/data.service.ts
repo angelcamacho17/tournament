@@ -59,21 +59,18 @@ export class DataService {
 
     public getPlayers():  Observable<Player[]> {
         if (this.players) {
-            console.warn('YA LO TENIA');
-            console.log(this.players);
             return of(this.players);
         } else {
             //console.warn('no lo tengo');
             return this.http.get<any>("assets/data/players.json").pipe(map((data: any) => {
                 this.players = data.players;
-                console.log(this.players);
                 return this.players;
             }))
         }
     }
 
-    public getPlayer(code: string): Player{
-        return this.players.find(user => user.code === code );
+    public getPlayer(code: string): void {
+       
     }
 
     private handleError(err) {
