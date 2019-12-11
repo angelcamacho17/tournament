@@ -3,28 +3,96 @@
         <img alt="Avatar" class="team-img" 
         src="assets/images/teams/{{team?.shield}}">
         <div class="info-top">
-            <h3>Position 3rd</h3>
-            <h3>Points 12</h3>
-            <h3>Matches 8</h3>
-            <h3>Won 3</h3>
-            <h3>Draw 3</h3>
-            <h3>Lost 2</h3>
+            <h5>Position</h5><h3>3rd</h3>
+            <h5>Points</h5><h3>12</h3>
+            <h5>Matches</h5><h3>8</h3>
+            <h5>Won</h5><h3>3</h3>
+            <h5>Draw</h5><h3>3</h3>
+            <h5>Lost</h5><h3>2</h3>
             <div class="info-top-bottom">
-                <h3>Goals made 11</h3>
-                <h3>Goals recieved 7</h3>
-                <h3>Yellow Cards 9</h3>
-                <h3>Red Cards 2</h3>
+                <h5>Goals made</h5><h3>11</h3>
+                <h5>Goals recieved</h5><h3>7</h3>
+                <h5>Yellow Cards</h5><h3>9</h3>
+                <h5>Red Cards</h5><h3>2</h3>
             </div>
             <div class ="stats">
-                <h5 class="box">W</h5>
-                <h5 class="box">W</h5>
-                <h5 class="box">W</h5>
-                <h5 class="box">W</h5>
-                <h5 class="box">W</h5>
-                <h5 class="box">W</h5>
-                <h5 class="box">W</h5>
-                <h5 class="box">W</h5>
+                <mat-chip ngClass="box won">w</mat-chip>
+                <mat-chip ngClass="box won">w</mat-chip>
+                <mat-chip ngClass="box won">w</mat-chip>
+                <mat-chip ngClass="box lost">l</mat-chip>
+                <mat-chip ngClass="box">d</mat-chip>
+                <mat-chip ngClass="box won">w</mat-chip>
+                <mat-chip ngClass="box lost">l</mat-chip>
+                <mat-chip ngClass="box">d</mat-chip>
             </div>
         </div>
     </div>
+    
+<mat-grid-list class="grid" cols="8" rowHeight="20px">
+        <mat-grid-tile class="title">
+            Player
+        </mat-grid-tile>
+        <mat-grid-tile class="title" >
+            #
+        </mat-grid-tile>
+        <mat-grid-tile class="title">
+            Goals
+        </mat-grid-tile>
+        <mat-grid-tile class="title">
+            Assits
+        </mat-grid-tile>
+        <mat-grid-tile class="title">
+            Yellow
+        </mat-grid-tile>
+        <mat-grid-tile class="title">
+            Red
+        </mat-grid-tile>
+        <mat-grid-tile class="title">
+            C
+        </mat-grid-tile>
+        <mat-grid-tile class="title">
+            Available
+        </mat-grid-tile>
+    </mat-grid-list>
+    <mat-list>
+        <mat-list-item *ngFor="let i of info">
+                <h4>{{ i?.player}}</h4>
+                <h4>{{i?.number}}</h4>
+                <h4>{{i?.goals}}</h4>
+                <h4>{{i?.assits}}</h4>
+                <h4>{{i?.yellow}}</h4>
+                <h4>{{i?.red}}</h4>
+                <!-- <div *ngIf="i?.captain"><h4>C</h4></div>
+                <div *ngIf="i?.available"><h4>YES</h4></div>
+                <div *ngIf="!i?.available"><h4>NO</h4></div> -->
+        </mat-list-item>
+    </mat-list>
+          
+    <!-- <mat-grid-list class="grid" cols="8" rowHeight="20px" *ngFor="let i of info">
+        <mat-grid-tile >
+            {{ i?.player}}
+        </mat-grid-tile>
+        <mat-grid-tile >
+            {{i?.number}}
+        </mat-grid-tile>
+        <mat-grid-tile >
+            {{i?.goals}}
+        </mat-grid-tile>
+        <mat-grid-tile >
+            {{i?.assits}}
+        </mat-grid-tile>
+        <mat-grid-tile >
+            {{i?.yellow}}
+        </mat-grid-tile>
+        <mat-grid-tile >
+            {{i?.red}}
+        </mat-grid-tile>
+        <mat-grid-tile >
+            <div *ngIf="i?.captain">C</div>
+        </mat-grid-tile>
+        <mat-grid-tile >
+            <div *ngIf="i?.available">YES</div>
+            <div *ngIf="!i?.available">NO</div>
+        </mat-grid-tile>
+    </mat-grid-list> -->
 </div>

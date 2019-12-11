@@ -7,6 +7,7 @@ import { throwError, Observable, of } from 'rxjs';
 import { Team } from '../shared/team';
 import { map } from 'rxjs/operators';
 import { Player } from '../shared/player';
+import { Fixture } from '../shared/fixture';
 
 @Injectable({
     providedIn: 'root'
@@ -15,6 +16,7 @@ export class DataService {
     private users: User[];
     private teams: Team[];
     private players: Player[];
+    private fixtures: Fixture[];
 
     constructor(private http: HttpClient) {
     }
@@ -27,16 +29,17 @@ export class DataService {
         return of(this.teams.find(team => team.code === code));
     }
 
-    private initializeProduct(): Team {
-        // Return an initialized object
-        return {
-            code: "",
-            name: "",
-            shield: "",
-            primary: "",
-            seccondary: ""
-        };
-      }
+    public getFixtures(): Observable<Fixture[]> {
+        if (this.fixtures) {
+            return of(this.fixtures);
+        } else {
+            return this.http.get<any>("assets/data/fixture.json").pipe(map((data: any) => {
+                this.fixtures = data.fixtures;
+                console.log(this.fixtures);
+                return this.fixtures;
+            }))
+        }
+    }
 
     public getTeams(): Observable<Team[]> {
         if (this.teams) {

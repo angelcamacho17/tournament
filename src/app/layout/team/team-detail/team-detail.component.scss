@@ -1,8 +1,9 @@
 .team-detail {
     display: flex;
     justify-content: center;
-    height: 87%;
+    height: 25%;
     position: relative;
+    flex-flow: wrap;
     .content {
         z-index: 1;
         display: flex;
@@ -35,14 +36,35 @@
             width: 100%;
             justify-content: right;
             .box{
-                border-style: solid;
-                border-width: 2px;
                 border-radius: 50%;
-                margin: 5px;
-                height: 18px;
-                width: 19px;
+                height: 30px;
+                width: 30px;
                 text-align: center;
+                font-size: larger;
+                color:white;
+                margin:2px;
+            }
+            .won{
+                background:#1ebb52;
+            }
+            .lost{
+                background: rgb(228, 54, 54) ;
             }
         }
+        h5 {
+            padding-top: 3px;
+        }
+    }
+    .grid{
+        z-index: 1;
+        display: flex;
+        background: #fff;
+        width: 736px;
+        height: 155px;
+        border-radius: 10px;
+    }
+    .title{
+        background: rgba(255, 255, 255, 0.644);
     }
 }
+
