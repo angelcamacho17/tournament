@@ -5,4 +5,13 @@ export interface Team {
     primary: string;
     seccondary: string;
   }
+
+  export interface TeamResolved {
+    team : Team;
+    error?: any;
+  }
+
+  export interface TeamListResolved {
+    teams : Team[];
+  }
   

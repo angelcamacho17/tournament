@@ -1,13 +1,13 @@
 <div class="player-page">
-    <div class="content">
+    <div class="content" *ngIf="player">
         <img alt="Avatar" class="profile-img" 
-        src="assets/images/players/{{player.photo}}">
+        src="assets/images/players/{{player?.photo}}">
         <div class="info-top">
           <div class="info-top-in">
-            <h1 class="name"> {{player.name}}</h1>
-            <h1 class="number">#{{player.number}}</h1>
+            <h1 class="name"> {{player?.name}}</h1>
+            <h1 class="number">#{{player?.number}}</h1>
           </div>
-          <h3 class="team">{{team.name}}</h3>
+          <h3 class="team">{{team?.name}}</h3>
           <div class="info-top-in">
             <h4>Goals: 2</h4>
             <h4>Assists: 1</h4>
@@ -16,14 +16,14 @@
           </div>
         </div>
         <div class="info-bottom">
-            <h4>mail: {{player.mail}}</h4>
-            <h4>phone: {{player.phone}}</h4>
+            <h4>mail: {{player?.mail}}</h4>
+            <h4>phone: {{player?.phone}}</h4>
             <h4>Status: 2</h4>
         </div>
         <div class="info-bottom-2">
-            <h4>Emergency contact: {{player.emergency_contact.name}}</h4>
-            <h4>phone: {{player.emergency_contact.phone}}</h4>
-            <h4>Blood Type: {{player.blood_type}}</h4>
+            <h4>Emergency contact: {{player?.emergency_contact.name}}</h4>
+            <h4>phone: {{player?.emergency_contact.phone}}</h4>
+            <h4>Blood Type: {{player?.blood_type}}</h4>
         </div>
       </div>
 </div>

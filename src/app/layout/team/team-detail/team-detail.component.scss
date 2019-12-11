@@ -1,0 +1,32 @@
+.team-detail {
+    display: flex;
+    justify-content: center;
+    height: 87%;
+    position: relative;
+    .content {
+        z-index: 1;
+        display: flex;
+        background: #fff;
+        width: 736px;
+        height: 120px;
+        margin: 35px;
+        border-radius: 10px;
+        .team-img{
+            height: 120px;
+            border-radius: 10px;
+        }
+        .info-top{
+            display: inline-flex;
+            margin-left: 12px;
+            margin-right: 12px;
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: wrap; 
+        }
+        .info-top-bottom{
+            display: inline-flex;
+            width: 100%;
+            justify-content: space-around;
+        }
+    }
+}

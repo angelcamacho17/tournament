@@ -23,6 +23,21 @@ export class DataService {
         return this.teams.find(team => team.code === code);
     }
 
+    getTeamFast(code: string): Observable<Team> {
+        return of(this.teams.find(team => team.code === code));
+    }
+
+    private initializeProduct(): Team {
+        // Return an initialized object
+        return {
+            code: "",
+            name: "",
+            shield: "",
+            primary: "",
+            seccondary: ""
+        };
+      }
+
     public getTeams(): Observable<Team[]> {
         if (this.teams) {
             // console.warn('YA LO TENIA');
