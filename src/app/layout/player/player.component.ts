@@ -22,7 +22,6 @@ export class PlayerComponent implements OnInit {
           this._players = data;
           this.player = this._players.find( player => player.code === user.player_code);
           this.team = this.dataService.getTeam(this.player.team_code);
-          console.log(this.player);
         });
    }
 
