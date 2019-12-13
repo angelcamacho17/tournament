@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Team, TeamResolved } from 'src/app/shared/team';
+import { Team, TeamResolved, TeamDetailC } from 'src/app/shared/team';
 import { DataService } from 'src/app/services/data.service';
 import { ActivatedRoute } from '@angular/router';
+import { FixtureService } from 'src/app/services/fixture.service';
+import { Fixture } from 'src/app/shared/fixture';
 
 export interface PeriodicElement {
   name: string;
@@ -29,6 +31,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class TeamDetailComponent implements OnInit {
   team: Team;
+  teamDetail: TeamDetailC;
   errorMessage: string;
   displayedColumns: string[] = ['player', 'number', 'goals', 'assits','yellow','red','captain',"available"];
   dataSource = [
@@ -133,11 +136,14 @@ export class TeamDetailComponent implements OnInit {
     }
   ]
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute,
+              private fixtureService: FixtureService) { }
 
   ngOnInit(): void {
     const resolvedData: TeamResolved = this.route.snapshot.data['resolvedData'];
     this.errorMessage = resolvedData.error;
     this.team = resolvedData.team ;
+    //this.teamDetail = this.fixtureService.getTeamFixture(this.team.code);
+    //console.log(this.teamDetail);
   }
 }

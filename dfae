@@ -1,0 +1,130 @@
+[1mdiff --git a/src/app/app.module.ts b/src/app/app.module.ts[m
+[1mindex e7021b6..2fda2fe 100644[m
+[1m--- a/src/app/app.module.ts[m
+[1m+++ b/src/app/app.module.ts[m
+[36m@@ -10,6 +10,7 @@[m [mimport { LayoutModule } from './layout/layout.module';[m
+ import { LoginService } from './services/login.service';[m
+ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';[m
+ import { DataService } from './services/data.service';[m
+[32m+[m[32mimport { FixtureService } from './services/fixture.service';[m
+ [m
+ @NgModule({[m
+   declarations: [[m
+[36m@@ -27,7 +28,7 @@[m [mimport { DataService } from './services/data.service';[m
+     MatIconModule,[m
+     MatListModule,[m
+   ],[m
+[31m-  providers: [ AuthGuard , LoginService, DataService ],[m
+[32m+[m[32m  providers: [ AuthGuard , LoginService, DataService, FixtureService ],[m
+   bootstrap: [AppComponent][m
+ })[m
+ export class AppModule { }[m
+[1mdiff --git a/src/app/layout/team/team-detail/team-detail.component.ts b/src/app/layout/team/team-detail/team-detail.component.ts[m
+[1mindex 85f43f8..55b2c45 100644[m
+[1m--- a/src/app/layout/team/team-detail/team-detail.component.ts[m
+[1m+++ b/src/app/layout/team/team-detail/team-detail.component.ts[m
+[36m@@ -1,7 +1,9 @@[m
+ import { Component, OnInit } from '@angular/core';[m
+[31m-import { Team, TeamResolved } from 'src/app/shared/team';[m
+[32m+[m[32mimport { Team, TeamResolved, TeamStatictis } from 'src/app/shared/team';[m
+ import { DataService } from 'src/app/services/data.service';[m
+ import { ActivatedRoute } from '@angular/router';[m
+[32m+[m[32mimport { FixtureService } from 'src/app/services/fixture.service';[m
+[32m+[m[32mimport { Fixture } from 'src/app/shared/fixture';[m
+ [m
+ export interface PeriodicElement {[m
+   name: string;[m
+[36m@@ -31,6 +33,7 @@[m [mexport class TeamDetailComponent implements OnInit {[m
+   team: Team;[m
+   errorMessage: string;[m
+   displayedColumns: string[] = ['player', 'number', 'goals', 'assits','yellow','red','captain',"available"];[m
+[32m+[m[32m  fetchedData: TeamStatictis[];[m
+   dataSource = [[m
+     {[m
+       player: "Angel Camacho",[m
+[36m@@ -133,11 +136,14 @@[m [mexport class TeamDetailComponent implements OnInit {[m
+     }[m
+   ][m
+ [m
+[31m-  constructor(private route: ActivatedRoute) { }[m
+[32m+[m[32m  constructor(private route: ActivatedRoute,[m
+[32m+[m[32m              private fixtureService: FixtureService) { }[m
+ [m
+   ngOnInit(): void {[m
+     const resolvedData: TeamResolved = this.route.snapshot.data['resolvedData'];[m
+     this.errorMessage = resolvedData.error;[m
+     this.team = resolvedData.team ;[m
+[32m+[m
+[32m+[m[32m    this.fixtureService.getTeamFixture(this.team.code);[m
+   }[m
+ }[m
+[1mdiff --git a/src/app/services/data.service.ts b/src/app/services/data.service.ts[m
+[1mindex f4c4bc0..bec8adf 100644[m
+[1m--- a/src/app/services/data.service.ts[m
+[1m+++ b/src/app/services/data.service.ts[m
+[36m@@ -34,7 +34,7 @@[m [mexport class DataService {[m
+             return of(this.fixtures);[m
+         } else {[m
+             return this.http.get<any>("assets/data/fixture.json").pipe(map((data: any) => {[m
+[31m-                this.fixtures = data.fixtures;[m
+[32m+[m[32m                this.fixtures = data.fixture;[m
+                 console.log(this.fixtures);[m
+                 return this.fixtures;[m
+             }))[m
+[1mdiff --git a/src/app/services/fixture.service.ts b/src/app/services/fixture.service.ts[m
+[1mindex b860bc1..6a62a53 100644[m
+[1m--- a/src/app/services/fixture.service.ts[m
+[1m+++ b/src/app/services/fixture.service.ts[m
+[36m@@ -1,4 +1,7 @@[m
+ import { Injectable } from "@angular/core";[m
+[32m+[m[32mimport { DataService } from './data.service';[m
+[32m+[m[32mimport { TeamStatictis } from '../shared/team';[m
+[32m+[m[32mimport { Fixture } from '../shared/fixture';[m
+ [m
+ @Injectable({[m
+     providedIn:'root'[m
+[36m@@ -6,5 +9,18 @@[m [mimport { Injectable } from "@angular/core";[m
+ [m
+ export class FixtureService {[m
+     [m
+[32m+[m[32m    constructor( private dataService: DataService){}[m
+ [m
+[32m+[m[32m    getTeamFixture(teamCode: string ){[m
+[32m+[m[32m        let fixtures;[m
+[32m+[m[32m        let teamFixtures: Fixture[];[m
+[32m+[m[32m        this.dataService.getFixtures().subscribe(data=>{[m
+[32m+[m[32m            fixtures = data;[m
+[32m+[m[32m            if (fixtures){[m
+[32m+[m[32m                for (let fixture of fixtures){[m
+[32m+[m[41m                    [m
+[32m+[m[32m                }[m
+[32m+[m[32m            }[m
+[32m+[m[32m        });[m
+[32m+[m[32m    }[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git a/src/app/shared/team.ts b/src/app/shared/team.ts[m
+[1mindex de41ef1..256c785 100644[m
+[1m--- a/src/app/shared/team.ts[m
+[1m+++ b/src/app/shared/team.ts[m
+[36m@@ -14,4 +14,17 @@[m [mexport interface Team {[m
+   export interface TeamListResolved {[m
+     teams : Team[];[m
+   }[m
+[32m+[m
+[32m+[m[32m  export interface TeamStatictis{[m
+[32m+[m[32m    position: number;[m
+[32m+[m[32m    points: number;[m
+[32m+[m[32m    matches: number;[m
+[32m+[m[32m    won: number;[m
+[32m+[m[32m    lost: number;[m
+[32m+[m[32m    draw: number;[m
+[32m+[m[32m    goalsScored: number;[m
+[32m+[m[32m    goalsRecieved: number;[m
+[32m+[m[32m    yellowCards: number;[m
+[32m+[m[32m    redCards: number;[m
+[32m+[m[32m  }[m
+   [m
+\ No newline at end of file[m
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory.

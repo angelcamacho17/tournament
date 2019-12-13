@@ -14,4 +14,18 @@ export interface Team {
   export interface TeamListResolved {
     teams : Team[];
   }
-  
+
+  export interface TeamDetailC {
+    id: number;
+    teamCode: string;
+    position?: number;
+    points?: number;
+    matches?: number;
+    won?: number;
+    lost?: number;
+    draw?: number;
+    goalsScored?: number;
+    goalsRecieved?: number;
+    yellowCards?: number;
+    redCards?: number;
+  }

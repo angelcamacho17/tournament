@@ -10,6 +10,7 @@ import { LayoutModule } from './layout/layout.module';
 import { LoginService } from './services/login.service';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 import { DataService } from './services/data.service';
+import { FixtureService } from './services/fixture.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { DataService } from './services/data.service';
     MatIconModule,
     MatListModule,
   ],
-  providers: [ AuthGuard , LoginService, DataService ],
+  providers: [ AuthGuard , LoginService, DataService, FixtureService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

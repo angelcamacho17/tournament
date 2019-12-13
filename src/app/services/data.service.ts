@@ -34,8 +34,7 @@ export class DataService {
             return of(this.fixtures);
         } else {
             return this.http.get<any>("assets/data/fixture.json").pipe(map((data: any) => {
-                this.fixtures = data.fixtures;
-                console.log(this.fixtures);
+                this.fixtures = data.fixture;
                 return this.fixtures;
             }))
         }
